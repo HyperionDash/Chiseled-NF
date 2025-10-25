@@ -1,5 +1,8 @@
 package net.hyper.chiseled;
 
+import net.hyper.chiseled.block.ModBlocks;
+import net.hyper.chiseled.item.ModCreativeModeTabs;
+import net.hyper.chiseled.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,6 +31,10 @@ public class Chiseled {
         modEventBus.addListener(this::commonSetup);
 
         NeoForge.EVENT_BUS.register(this);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         modEventBus.addListener(this::addCreative);
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
