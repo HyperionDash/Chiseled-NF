@@ -3,6 +3,7 @@ package net.hyper.chiseled.datagen;
 import net.hyper.chiseled.Chiseled;
 import net.hyper.chiseled.block.ModBlocks;
 import net.minecraft.data.PackOutput;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -15,15 +16,24 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
+        wallBlock(ModBlocks.STONE_WALL.get(), blockTexture(Blocks.STONE));
+
         blockWithItem(ModBlocks.POLISHED_STONE);
-        blockWithItem(ModBlocks.CRACKED_POLISHED_STONE);
         stairsBlock(ModBlocks.POLISHED_STONE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_STONE.get()));
         blockItem(ModBlocks.POLISHED_STONE_STAIRS);
         slabBlock(ModBlocks.POLISHED_STONE_SLAB.get(), blockTexture(ModBlocks.POLISHED_STONE.get()), blockTexture(ModBlocks.POLISHED_STONE.get()));
         blockItem(ModBlocks.POLISHED_STONE_SLAB);
         wallBlock(ModBlocks.POLISHED_STONE_WALL.get(), blockTexture(ModBlocks.POLISHED_STONE.get()));
 
+        blockWithItem(ModBlocks.MOSSY_POLISHED_STONE);
+        stairsBlock(ModBlocks.MOSSY_POLISHED_STONE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_POLISHED_STONE.get()));
+        blockItem(ModBlocks.MOSSY_POLISHED_STONE_STAIRS);
+        slabBlock(ModBlocks.MOSSY_POLISHED_STONE_SLAB.get(), blockTexture(ModBlocks.MOSSY_POLISHED_STONE.get()), blockTexture(ModBlocks.MOSSY_POLISHED_STONE.get()));
+        blockItem(ModBlocks.MOSSY_POLISHED_STONE_SLAB);
+        wallBlock(ModBlocks.MOSSY_POLISHED_STONE_WALL.get(), blockTexture(ModBlocks.MOSSY_POLISHED_STONE.get()));
+
         blockWithItem(ModBlocks.CRACKED_CHISELED_STONE_BRICKS);
+        blockWithItem(ModBlocks.MOSSY_CHISELED_STONE_BRICKS);
 
         blockWithItem(ModBlocks.STONE_TILES);
         blockWithItem(ModBlocks.CRACKED_STONE_TILES);
@@ -31,7 +41,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.STONE_TILE_STAIRS);
         slabBlock(ModBlocks.STONE_TILE_SLAB.get(), blockTexture(ModBlocks.STONE_TILES.get()), blockTexture(ModBlocks.STONE_TILES.get()));
         blockItem(ModBlocks.STONE_TILE_SLAB);
-        wallBlock(ModBlocks.STONE_TILE_WALL.get(), blockTexture(ModBlocks.STONE_TILES.get()));
+
+        blockWithItem(ModBlocks.MOSSY_STONE_TILES);
+        stairsBlock(ModBlocks.MOSSY_STONE_TILE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_STONE_TILES.get()));
+        blockItem(ModBlocks.MOSSY_STONE_TILE_STAIRS);
+        slabBlock(ModBlocks.MOSSY_STONE_TILE_SLAB.get(), blockTexture(ModBlocks.MOSSY_STONE_TILES.get()), blockTexture(ModBlocks.MOSSY_STONE_TILES.get()));
+        blockItem(ModBlocks.MOSSY_STONE_TILE_SLAB);
 
         blockWithItem(ModBlocks.SMALL_STONE_BRICKS);
         blockWithItem(ModBlocks.CRACKED_SMALL_STONE_BRICKS);
@@ -40,6 +55,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.SMALL_STONE_BRICK_SLAB.get(), blockTexture(ModBlocks.SMALL_STONE_BRICKS.get()), blockTexture(ModBlocks.SMALL_STONE_BRICKS.get()));
         blockItem(ModBlocks.SMALL_STONE_BRICK_SLAB);
         wallBlock(ModBlocks.SMALL_STONE_BRICK_WALL.get(), blockTexture(ModBlocks.SMALL_STONE_BRICKS.get()));
+
+        blockWithItem(ModBlocks.MOSSY_SMALL_STONE_BRICKS);
+        stairsBlock(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS);
+        slabBlock(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get()), blockTexture(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB);
+        wallBlock(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get()));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

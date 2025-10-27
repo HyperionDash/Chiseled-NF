@@ -19,30 +19,48 @@ public class ModBlockTagProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(ModBlocks.STONE_WALL.get())
+
                 .add(ModBlocks.POLISHED_STONE.get())
-                .add(ModBlocks.CRACKED_POLISHED_STONE.get())
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
                 .add(ModBlocks.POLISHED_STONE_WALL.get())
 
+                .add(ModBlocks.MOSSY_POLISHED_STONE.get())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_STAIRS.get())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_SLAB.get())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_WALL.get())
+
                 .add(ModBlocks.CRACKED_CHISELED_STONE_BRICKS.get())
+                .add(ModBlocks.MOSSY_CHISELED_STONE_BRICKS.get())
 
                 .add(ModBlocks.STONE_TILES.get())
                 .add(ModBlocks.CRACKED_STONE_TILES.get())
                 .add(ModBlocks.STONE_TILE_STAIRS.get())
                 .add(ModBlocks.STONE_TILE_SLAB.get())
-                .add(ModBlocks.STONE_TILE_WALL.get())
+
+                .add(ModBlocks.MOSSY_STONE_TILES.get())
+                .add(ModBlocks.MOSSY_STONE_TILE_STAIRS.get())
+                .add(ModBlocks.MOSSY_STONE_TILE_SLAB.get())
 
                 .add(ModBlocks.SMALL_STONE_BRICKS.get())
                 .add(ModBlocks.CRACKED_SMALL_STONE_BRICKS.get())
                 .add(ModBlocks.SMALL_STONE_BRICK_STAIRS.get())
                 .add(ModBlocks.SMALL_STONE_BRICK_SLAB.get())
-                .add(ModBlocks.SMALL_STONE_BRICK_WALL.get());
+                .add(ModBlocks.SMALL_STONE_BRICK_WALL.get())
+
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.get());
 
         tag(BlockTags.WALLS)
+                .add(ModBlocks.STONE_WALL.get())
                 .add(ModBlocks.POLISHED_STONE_WALL.get())
-                .add(ModBlocks.STONE_TILE_WALL.get())
-                .add(ModBlocks.SMALL_STONE_BRICK_WALL.get());
+                .add(ModBlocks.MOSSY_POLISHED_STONE_WALL.get())
+                .add(ModBlocks.SMALL_STONE_BRICK_WALL.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.get());
+
 
     }
 }

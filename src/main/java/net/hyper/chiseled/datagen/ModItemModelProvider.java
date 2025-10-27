@@ -17,8 +17,9 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         wallItem(ModBlocks.POLISHED_STONE_WALL, ModBlocks.POLISHED_STONE);
-        wallItem(ModBlocks.STONE_TILE_WALL, ModBlocks.STONE_TILES);
+        wallItem(ModBlocks.MOSSY_POLISHED_STONE_WALL, ModBlocks.MOSSY_POLISHED_STONE);
         wallItem(ModBlocks.SMALL_STONE_BRICK_WALL, ModBlocks.SMALL_STONE_BRICKS);
+        wallItem(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL, ModBlocks.MOSSY_SMALL_STONE_BRICKS);
     }
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

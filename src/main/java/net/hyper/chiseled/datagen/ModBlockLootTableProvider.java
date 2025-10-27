@@ -16,21 +16,33 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        dropSelf(ModBlocks.STONE_WALL.get());
+
         dropSelf(ModBlocks.POLISHED_STONE.get());
-        dropSelf(ModBlocks.CRACKED_POLISHED_STONE.get());
         dropSelf(ModBlocks.POLISHED_STONE_STAIRS.get());
         add(ModBlocks.POLISHED_STONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.POLISHED_STONE_SLAB.get()));
         dropSelf(ModBlocks.POLISHED_STONE_WALL.get());
 
+        dropSelf(ModBlocks.MOSSY_POLISHED_STONE.get());
+        dropSelf(ModBlocks.MOSSY_POLISHED_STONE_STAIRS.get());
+        add(ModBlocks.MOSSY_POLISHED_STONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_POLISHED_STONE_SLAB.get()));
+        dropSelf(ModBlocks.MOSSY_POLISHED_STONE_WALL.get());
+
         dropSelf(ModBlocks.CRACKED_CHISELED_STONE_BRICKS.get());
+        dropSelf(ModBlocks.MOSSY_CHISELED_STONE_BRICKS.get());
 
         dropSelf(ModBlocks.STONE_TILES.get());
         dropSelf(ModBlocks.CRACKED_STONE_TILES.get());
         dropSelf(ModBlocks.STONE_TILE_STAIRS.get());
         add(ModBlocks.STONE_TILE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.STONE_TILE_SLAB.get()));
-        dropSelf(ModBlocks.STONE_TILE_WALL.get());
+
+        dropSelf(ModBlocks.MOSSY_STONE_TILES.get());
+        dropSelf(ModBlocks.MOSSY_STONE_TILE_STAIRS.get());
+        add(ModBlocks.MOSSY_STONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_STONE_TILE_SLAB.get()));
 
         dropSelf(ModBlocks.SMALL_STONE_BRICKS.get());
         dropSelf(ModBlocks.CRACKED_SMALL_STONE_BRICKS.get());
@@ -38,6 +50,12 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.SMALL_STONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SMALL_STONE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.SMALL_STONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.MOSSY_SMALL_STONE_BRICKS.get());
+        dropSelf(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS.get());
+        add(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.get());
     }
 
     @Override
