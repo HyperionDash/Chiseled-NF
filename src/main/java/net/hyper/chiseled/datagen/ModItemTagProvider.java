@@ -26,7 +26,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_STONE_WALL.asItem())
                 .add(ModBlocks.MOSSY_POLISHED_STONE_WALL.asItem())
                 .add(ModBlocks.SMALL_STONE_BRICK_WALL.asItem())
-                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.asItem());
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_WALL.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_BRICK_WALL.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_WALL.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_BRICK_WALL.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_WALL.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.asItem());
 
         tag(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.POLISHED_STONE.asItem())
