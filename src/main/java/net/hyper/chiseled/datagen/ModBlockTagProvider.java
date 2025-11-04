@@ -105,5 +105,33 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_WALL.get())
                 .add(ModBlocks.POLISHED_ANDESITE_WALL.get())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.get());
+
+        tag(BlockTags.STAIRS)
+                .add(ModBlocks.POLISHED_STONE_STAIRS.get())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_STAIRS.get())
+                .add(ModBlocks.STONE_TILE_STAIRS.get())
+                .add(ModBlocks.MOSSY_STONE_TILE_STAIRS.get())
+                .add(ModBlocks.SMALL_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.POLISHED_GRANITE_BRICK_STAIRS.get())
+                .add(ModBlocks.POLISHED_GRANITE_TILE_STAIRS.get())
+                .add(ModBlocks.POLISHED_DIORITE_BRICK_STAIRS.get())
+                .add(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.get())
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS.get())
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.get());
+
+        tag(BlockTags.SLABS)
+                .add(ModBlocks.POLISHED_STONE_SLAB.get())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_SLAB.get())
+                .add(ModBlocks.STONE_TILE_SLAB.get())
+                .add(ModBlocks.MOSSY_STONE_TILE_SLAB.get())
+                .add(ModBlocks.SMALL_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.POLISHED_GRANITE_BRICK_SLAB.get())
+                .add(ModBlocks.POLISHED_GRANITE_TILE_SLAB.get())
+                .add(ModBlocks.POLISHED_DIORITE_BRICK_SLAB.get())
+                .add(ModBlocks.POLISHED_DIORITE_TILE_SLAB.get())
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.get())
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.get());
     }
 }

@@ -45,5 +45,33 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.SMALL_STONE_BRICKS.asItem())
                 .add(ModBlocks.CRACKED_SMALL_STONE_BRICKS.asItem())
                 .add(ModBlocks.MOSSY_SMALL_STONE_BRICKS.asItem());
+
+        tag(ItemTags.STAIRS)
+                .add(ModBlocks.POLISHED_STONE_STAIRS.asItem())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_STAIRS.asItem())
+                .add(ModBlocks.STONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.MOSSY_STONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.SMALL_STONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_TILE_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.asItem());
+
+        tag(ItemTags.SLABS)
+                .add(ModBlocks.POLISHED_STONE_SLAB.asItem())
+                .add(ModBlocks.MOSSY_POLISHED_STONE_SLAB.asItem())
+                .add(ModBlocks.STONE_TILE_SLAB.asItem())
+                .add(ModBlocks.MOSSY_STONE_TILE_SLAB.asItem())
+                .add(ModBlocks.SMALL_STONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_BRICK_SLAB.asItem())
+                .add(ModBlocks.POLISHED_GRANITE_TILE_SLAB.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_BRICK_SLAB.asItem())
+                .add(ModBlocks.POLISHED_DIORITE_TILE_SLAB.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.asItem())
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.asItem());
     }
 }
