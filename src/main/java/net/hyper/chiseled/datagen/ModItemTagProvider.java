@@ -32,7 +32,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_DIORITE_WALL.asItem())
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_WALL.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_WALL.asItem())
-                .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.asItem());
+                .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.asItem())
+                .add(ModBlocks.MOSSY_BRICK_WALL.asItem())
+                .add(ModBlocks.WEATHERED_BRICK_WALL.asItem());
 
         tag(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.POLISHED_STONE.asItem())
@@ -58,7 +60,10 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_STAIRS.asItem())
                 .add(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS.asItem())
-                .add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.asItem());
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.asItem())
+                .add(ModBlocks.DEEPSLATE_TILE_STAIRS.asItem())
+                .add(ModBlocks.MOSSY_BRICK_STAIRS.asItem())
+                .add(ModBlocks.WEATHERED_BRICK_STAIRS.asItem());
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.asItem())
@@ -72,6 +77,9 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_SLAB.asItem())
                 .add(ModBlocks.POLISHED_DIORITE_TILE_SLAB.asItem())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.asItem())
-                .add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.asItem());
+                .add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.asItem())
+                .add(ModBlocks.DEEPSLATE_TILE_SLAB.asItem())
+                .add(ModBlocks.MOSSY_BRICK_SLAB.asItem())
+                .add(ModBlocks.WEATHERED_BRICK_SLAB.asItem());
     }
 }

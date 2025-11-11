@@ -101,6 +101,24 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.get());
         add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.DEEPSLATE_TILES.get());
+        dropSelf(ModBlocks.CRACKED_DEEPSLATE_TILES.get());
+        dropSelf(ModBlocks.DEEPSLATE_TILE_STAIRS.get());
+        add(ModBlocks.DEEPSLATE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DEEPSLATE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.MOSSY_BRICKS.get());
+        dropSelf(ModBlocks.MOSSY_BRICK_STAIRS.get());
+        add(ModBlocks.MOSSY_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.MOSSY_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.WEATHERED_BRICKS.get());
+        dropSelf(ModBlocks.WEATHERED_BRICK_STAIRS.get());
+        add(ModBlocks.WEATHERED_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.WEATHERED_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.WEATHERED_BRICK_WALL.get());
     }
 
     @Override
