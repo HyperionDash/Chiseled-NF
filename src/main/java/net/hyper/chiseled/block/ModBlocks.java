@@ -207,42 +207,111 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> DEEPSLATE_TILES = registerBlock("deepslate_tiles",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(3.5F).explosionResistance(6F).sound(SoundType.DEEPSLATE_BRICKS).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<Block> CRACKED_DEEPSLATE_TILES = registerBlock("cracked_deepslate_tiles",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(3.5F).explosionResistance(6F).sound(SoundType.DEEPSLATE_BRICKS).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> DEEPSLATE_TILE_STAIRS = registerBlock("deepslate_tile_stairs",
             () -> new StairBlock(ModBlocks.DEEPSLATE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(3.5F).explosionResistance(6F).sound(SoundType.DEEPSLATE_BRICKS).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> DEEPSLATE_TILE_SLAB = registerBlock("deepslate_tile_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(3.5F).explosionResistance(6F).sound(SoundType.DEEPSLATE_BRICKS).mapColor(MapColor.DEEPSLATE).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> MOSSY_BRICKS = registerBlock("mossy_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> MOSSY_BRICK_STAIRS = registerBlock("mossy_brick_stairs",
             () -> new StairBlock(ModBlocks.MOSSY_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> MOSSY_BRICK_SLAB = registerBlock("mossy_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<WallBlock> MOSSY_BRICK_WALL = registerBlock("mossy_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> WEATHERED_BRICKS = registerBlock("weathered_bricks",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<StairBlock> WEATHERED_BRICK_STAIRS = registerBlock("weathered_brick_stairs",
             () -> new StairBlock(ModBlocks.WEATHERED_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<SlabBlock> WEATHERED_BRICK_SLAB = registerBlock("weathered_brick_slab",
             () -> new SlabBlock(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
     public static final DeferredBlock<WallBlock> WEATHERED_BRICK_WALL = registerBlock("weathered_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of()
-                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+                    .strength(2F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.COLOR_RED).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<StairBlock> PACKED_MUD_STAIRS = registerBlock("packed_mud_stairs",
+            () -> new StairBlock(Blocks.PACKED_MUD.defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1F).explosionResistance(3F).sound(SoundType.PACKED_MUD).mapColor(MapColor.DIRT)));
+    public static final DeferredBlock<SlabBlock> PACKED_MUD_SLAB = registerBlock("packed_mud_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1F).explosionResistance(3F).sound(SoundType.PACKED_MUD).mapColor(MapColor.DIRT)));
+    public static final DeferredBlock<WallBlock> PACKED_MUD_WALL = registerBlock("packed_mud_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1F).explosionResistance(3F).sound(SoundType.PACKED_MUD).mapColor(MapColor.DIRT)));
+
+    public static final DeferredBlock<Block> MOSSY_MUD_BRICKS = registerBlock("mossy_mud_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MOSSY_MUD_BRICK_STAIRS = registerBlock("mossy_mud_brick_stairs",
+            () -> new StairBlock(ModBlocks.MOSSY_MUD_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MOSSY_MUD_BRICK_SLAB = registerBlock("mossy_mud_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> MOSSY_MUD_BRICK_WALL = registerBlock("mossy_mud_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> MUD_TILES = registerBlock("mud_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MUD_TILE_STAIRS = registerBlock("mud_tile_stairs",
+            () -> new StairBlock(ModBlocks.MUD_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MUD_TILE_SLAB = registerBlock("mud_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> MOSSY_MUD_TILES = registerBlock("mossy_mud_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MOSSY_MUD_TILE_STAIRS = registerBlock("mossy_mud_tile_stairs",
+            () -> new StairBlock(ModBlocks.MOSSY_MUD_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MOSSY_MUD_TILE_SLAB = registerBlock("mossy_mud_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SMALL_MUD_BRICKS = registerBlock("small_mud_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> SMALL_MUD_BRICK_STAIRS = registerBlock("small_mud_brick_stairs",
+            () -> new StairBlock(ModBlocks.SMALL_MUD_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> SMALL_MUD_BRICK_SLAB = registerBlock("small_mud_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> SMALL_MUD_BRICK_WALL = registerBlock("small_mud_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> MOSSY_SMALL_MUD_BRICKS = registerBlock("mossy_small_mud_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> MOSSY_SMALL_MUD_BRICK_STAIRS = registerBlock("mossy_small_mud_brick_stairs",
+            () -> new StairBlock(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MOSSY_SMALL_MUD_BRICK_SLAB = registerBlock("mossy_small_mud_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> MOSSY_SMALL_MUD_BRICK_WALL = registerBlock("mossy_small_mud_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

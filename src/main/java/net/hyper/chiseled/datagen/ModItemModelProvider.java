@@ -25,6 +25,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.POLISHED_ANDESITE_BRICK_WALL, ModBlocks.POLISHED_ANDESITE_BRICKS);
         wallItem(ModBlocks.MOSSY_BRICK_WALL, ModBlocks.MOSSY_BRICKS);
         wallItem(ModBlocks.WEATHERED_BRICK_WALL, ModBlocks.WEATHERED_BRICKS);
+        wallItem(ModBlocks.MOSSY_MUD_BRICK_WALL, ModBlocks.MOSSY_MUD_BRICKS);
+        wallItem(ModBlocks.SMALL_MUD_BRICK_WALL, ModBlocks.SMALL_MUD_BRICKS);
+        wallItem(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL, ModBlocks.MOSSY_SMALL_MUD_BRICKS);
     }
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

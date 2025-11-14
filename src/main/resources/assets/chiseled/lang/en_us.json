@@ -94,5 +94,32 @@
   "block.chiseled.weathered_brick_slab": "Weathered Brick Slab",
   "block.chiseled.weathered_brick_wall": "Weathered Brick Wall",
 
+  "block.chiseled.packed_mud_stairs": "Packed Mud Stairs",
+  "block.chiseled.packed_mud_slab": "Packed Mud Slab",
+  "block.chiseled.packed_mud_wall": "Packed Mud Wall",
+
+  "block.chiseled.mossy_mud_bricks": "Mossy Mud Bricks",
+  "block.chiseled.mossy_mud_brick_stairs": "Mossy Mud Brick Stairs",
+  "block.chiseled.mossy_mud_brick_slab": "Mossy Mud Brick Slab",
+  "block.chiseled.mossy_mud_brick_wall": "Mossy Mud Brick Wall",
+
+  "block.chiseled.mud_tiles": "Mud Tiles",
+  "block.chiseled.mud_tile_stairs": "Mud Tile Stairs",
+  "block.chiseled.mud_tile_slab": "Mud Tile Slab",
+
+  "block.chiseled.mossy_mud_tiles": "Mossy Mud Tiles",
+  "block.chiseled.mossy_mud_tile_stairs": "Mossy Mud Tile Stairs",
+  "block.chiseled.mossy_mud_tile_slab": "Mossy Mud Tile Slab",
+
+  "block.chiseled.small_mud_bricks": "Small Mud Bricks",
+  "block.chiseled.small_mud_brick_stairs": "Small Mud Brick Stairs",
+  "block.chiseled.small_mud_brick_slab": "Small Mud Brick Slab",
+  "block.chiseled.small_mud_brick_wall": "Small Mud Brick Wall",
+
+  "block.chiseled.mossy_small_mud_bricks": "Mossy Small Mud Bricks",
+  "block.chiseled.mossy_small_mud_brick_stairs": "Mossy Small Mud Brick Stairs",
+  "block.chiseled.mossy_small_mud_brick_slab": "Mossy Small Mud Brick Slab",
+  "block.chiseled.mossy_small_mud_brick_wall": "Mossy Small Mud Brick Wall",
+
   "creativetab.chiseled.chiseled_tab": "Chiseled"
 }

@@ -162,6 +162,32 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MOSSY_BRICK_SLAB);
                         output.accept(ModBlocks.MOSSY_BRICK_WALL);
 
+                        output.accept(Blocks.PACKED_MUD);
+                        output.accept(ModBlocks.PACKED_MUD_STAIRS);
+                        output.accept(ModBlocks.PACKED_MUD_SLAB);
+                        output.accept(ModBlocks.PACKED_MUD_WALL);
+                        output.accept(Blocks.MUD_BRICKS);
+                        output.accept(Blocks.MUD_BRICK_STAIRS);
+                        output.accept(Blocks.MUD_BRICK_SLAB);
+                        output.accept(Blocks.MUD_BRICK_WALL);
+                        output.accept(ModBlocks.MOSSY_MUD_BRICKS);
+                        output.accept(ModBlocks.MOSSY_MUD_BRICK_STAIRS);
+                        output.accept(ModBlocks.MOSSY_MUD_BRICK_SLAB);
+                        output.accept(ModBlocks.MOSSY_MUD_BRICK_WALL);
+                        output.accept(ModBlocks.MUD_TILES);
+                        output.accept(ModBlocks.MUD_TILE_STAIRS);
+                        output.accept(ModBlocks.MUD_TILE_SLAB);
+                        output.accept(ModBlocks.MOSSY_MUD_TILES);
+                        output.accept(ModBlocks.MOSSY_MUD_TILE_STAIRS);
+                        output.accept(ModBlocks.MOSSY_MUD_TILE_SLAB);
+                        output.accept(ModBlocks.SMALL_MUD_BRICKS);
+                        output.accept(ModBlocks.SMALL_MUD_BRICK_STAIRS);
+                        output.accept(ModBlocks.SMALL_MUD_BRICK_SLAB);
+                        output.accept(ModBlocks.SMALL_MUD_BRICK_WALL);
+                        output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICKS);
+                        output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS);
+                        output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB);
+                        output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL);
                     }).build());
 
 

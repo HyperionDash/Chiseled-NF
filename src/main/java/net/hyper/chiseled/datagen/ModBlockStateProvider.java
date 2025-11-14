@@ -134,6 +134,45 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.WEATHERED_BRICK_SLAB.get(), blockTexture(ModBlocks.WEATHERED_BRICKS.get()), blockTexture(ModBlocks.WEATHERED_BRICKS.get()));
         blockItem(ModBlocks.WEATHERED_BRICK_SLAB);
         wallBlock(ModBlocks.WEATHERED_BRICK_WALL.get(), blockTexture(ModBlocks.WEATHERED_BRICKS.get()));
+
+        stairsBlock(ModBlocks.PACKED_MUD_STAIRS.get(), blockTexture(Blocks.PACKED_MUD));
+        blockItem(ModBlocks.PACKED_MUD_STAIRS);
+        slabBlock(ModBlocks.PACKED_MUD_SLAB.get(), blockTexture(Blocks.PACKED_MUD), blockTexture(Blocks.PACKED_MUD));
+        blockItem(ModBlocks.PACKED_MUD_SLAB);
+        wallBlock(ModBlocks.PACKED_MUD_WALL.get(), blockTexture(Blocks.PACKED_MUD));
+
+        blockWithItem(ModBlocks.MOSSY_MUD_BRICKS);
+        stairsBlock(ModBlocks.MOSSY_MUD_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_MUD_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_MUD_BRICK_STAIRS);
+        slabBlock(ModBlocks.MOSSY_MUD_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_MUD_BRICKS.get()), blockTexture(ModBlocks.MOSSY_MUD_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_MUD_BRICK_SLAB);
+        wallBlock(ModBlocks.MOSSY_MUD_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_MUD_BRICKS.get()));
+
+        blockWithItem(ModBlocks.MUD_TILES);
+        stairsBlock(ModBlocks.MUD_TILE_STAIRS.get(), blockTexture(ModBlocks.MUD_TILES.get()));
+        blockItem(ModBlocks.MUD_TILE_STAIRS);
+        slabBlock(ModBlocks.MUD_TILE_SLAB.get(), blockTexture(ModBlocks.MUD_TILES.get()), blockTexture(ModBlocks.MUD_TILES.get()));
+        blockItem(ModBlocks.MUD_TILE_SLAB);
+
+        blockWithItem(ModBlocks.MOSSY_MUD_TILES);
+        stairsBlock(ModBlocks.MOSSY_MUD_TILE_STAIRS.get(), blockTexture(ModBlocks.MOSSY_MUD_TILES.get()));
+        blockItem(ModBlocks.MOSSY_MUD_TILE_STAIRS);
+        slabBlock(ModBlocks.MOSSY_MUD_TILE_SLAB.get(), blockTexture(ModBlocks.MOSSY_MUD_TILES.get()), blockTexture(ModBlocks.MOSSY_MUD_TILES.get()));
+        blockItem(ModBlocks.MOSSY_MUD_TILE_SLAB);
+
+        blockWithItem(ModBlocks.SMALL_MUD_BRICKS);
+        stairsBlock(ModBlocks.SMALL_MUD_BRICK_STAIRS.get(), blockTexture(ModBlocks.SMALL_MUD_BRICKS.get()));
+        blockItem(ModBlocks.SMALL_MUD_BRICK_STAIRS);
+        slabBlock(ModBlocks.SMALL_MUD_BRICK_SLAB.get(), blockTexture(ModBlocks.SMALL_MUD_BRICKS.get()), blockTexture(ModBlocks.SMALL_MUD_BRICKS.get()));
+        blockItem(ModBlocks.SMALL_MUD_BRICK_SLAB);
+        wallBlock(ModBlocks.SMALL_MUD_BRICK_WALL.get(), blockTexture(ModBlocks.SMALL_MUD_BRICKS.get()));
+
+        blockWithItem(ModBlocks.MOSSY_SMALL_MUD_BRICKS);
+        stairsBlock(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get(), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS);
+        slabBlock(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()));
+        blockItem(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB);
+        wallBlock(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -119,6 +119,39 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.WEATHERED_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.WEATHERED_BRICK_SLAB.get()));
         dropSelf(ModBlocks.WEATHERED_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.PACKED_MUD_STAIRS.get());
+        add(ModBlocks.PACKED_MUD_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PACKED_MUD_SLAB.get()));
+        dropSelf(ModBlocks.PACKED_MUD_WALL.get());
+
+        dropSelf(ModBlocks.MOSSY_MUD_BRICKS.get());
+        dropSelf(ModBlocks.MOSSY_MUD_BRICK_STAIRS.get());
+        add(ModBlocks.MOSSY_MUD_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_MUD_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.MOSSY_MUD_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.MUD_TILES.get());
+        dropSelf(ModBlocks.MUD_TILE_STAIRS.get());
+        add(ModBlocks.MUD_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MUD_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.MOSSY_MUD_TILES.get());
+        dropSelf(ModBlocks.MOSSY_MUD_TILE_STAIRS.get());
+        add(ModBlocks.MOSSY_MUD_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_MUD_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.SMALL_MUD_BRICKS.get());
+        dropSelf(ModBlocks.SMALL_MUD_BRICK_STAIRS.get());
+        add(ModBlocks.SMALL_MUD_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SMALL_MUD_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.SMALL_MUD_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get());
+        dropSelf(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get());
+        add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
     }
 
     @Override

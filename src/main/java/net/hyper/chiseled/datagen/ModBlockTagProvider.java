@@ -106,7 +106,30 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.WEATHERED_BRICKS.get())
                 .add(ModBlocks.WEATHERED_BRICK_STAIRS.get())
                 .add(ModBlocks.WEATHERED_BRICK_SLAB.get())
-                .add(ModBlocks.WEATHERED_BRICK_WALL.get());
+                .add(ModBlocks.WEATHERED_BRICK_WALL.get())
+
+                .add(ModBlocks.MOSSY_MUD_BRICKS.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_WALL.get())
+
+                .add(ModBlocks.MUD_TILES.get())
+                .add(ModBlocks.MUD_TILE_STAIRS.get())
+                .add(ModBlocks.MUD_TILE_SLAB.get())
+
+                .add(ModBlocks.MOSSY_MUD_TILES.get())
+                .add(ModBlocks.MOSSY_MUD_TILE_STAIRS.get())
+                .add(ModBlocks.MOSSY_MUD_TILE_SLAB.get())
+
+                .add(ModBlocks.SMALL_MUD_BRICKS.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_WALL.get())
+
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL.get())
@@ -121,7 +144,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_ANDESITE_WALL.get())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.get())
                 .add(ModBlocks.MOSSY_BRICK_WALL.get())
-                .add(ModBlocks.WEATHERED_BRICK_WALL.get());
+                .add(ModBlocks.WEATHERED_BRICK_WALL.get())
+                .add(ModBlocks.PACKED_MUD_WALL.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_WALL.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_WALL.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
@@ -138,7 +165,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS.get())
                 .add(ModBlocks.DEEPSLATE_TILE_STAIRS.get())
                 .add(ModBlocks.MOSSY_BRICK_STAIRS.get())
-                .add(ModBlocks.WEATHERED_BRICK_STAIRS.get());
+                .add(ModBlocks.WEATHERED_BRICK_STAIRS.get())
+                .add(ModBlocks.PACKED_MUD_STAIRS.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.MUD_TILE_STAIRS.get())
+                .add(ModBlocks.MOSSY_MUD_TILE_STAIRS.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get());
 
         tag(BlockTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
@@ -155,6 +188,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_ANDESITE_TILE_SLAB.get())
                 .add(ModBlocks.DEEPSLATE_TILE_SLAB.get())
                 .add(ModBlocks.MOSSY_BRICK_SLAB.get())
-                .add(ModBlocks.WEATHERED_BRICK_SLAB.get());
+                .add(ModBlocks.WEATHERED_BRICK_SLAB.get())
+                .add(ModBlocks.PACKED_MUD_SLAB.get())
+                .add(ModBlocks.MOSSY_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.MUD_TILE_SLAB.get())
+                .add(ModBlocks.MOSSY_MUD_TILE_SLAB.get())
+                .add(ModBlocks.SMALL_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get());
     }
 }
