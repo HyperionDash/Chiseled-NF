@@ -71,6 +71,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MOSSY_SMALL_STONE_BRICK_STAIRS);
                         output.accept(ModBlocks.MOSSY_SMALL_STONE_BRICK_SLAB);
                         output.accept(ModBlocks.MOSSY_SMALL_STONE_BRICK_WALL);
+
                         output.accept(Blocks.GRANITE);
                         output.accept(Blocks.GRANITE_STAIRS);
                         output.accept(Blocks.GRANITE_SLAB);
@@ -84,6 +85,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.POLISHED_GRANITE_BRICK_STAIRS);
                         output.accept(ModBlocks.POLISHED_GRANITE_BRICK_SLAB);
                         output.accept(ModBlocks.POLISHED_GRANITE_BRICK_WALL);
+                        output.accept(ModBlocks.CHISELED_POLISHED_GRANITE_BRICKS);
                         output.accept(ModBlocks.POLISHED_GRANITE_TILES);
                         output.accept(ModBlocks.CRACKED_POLISHED_GRANITE_TILES);
                         output.accept(ModBlocks.POLISHED_GRANITE_TILE_STAIRS);
@@ -102,6 +104,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.POLISHED_DIORITE_BRICK_STAIRS);
                         output.accept(ModBlocks.POLISHED_DIORITE_BRICK_SLAB);
                         output.accept(ModBlocks.POLISHED_DIORITE_BRICK_WALL);
+                        output.accept(ModBlocks.CHISELED_POLISHED_DIORITE_BRICKS);
                         output.accept(ModBlocks.POLISHED_DIORITE_TILES);
                         output.accept(ModBlocks.CRACKED_POLISHED_DIORITE_TILES);
                         output.accept(ModBlocks.POLISHED_DIORITE_TILE_STAIRS);
@@ -120,6 +123,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS);
                         output.accept(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB);
                         output.accept(ModBlocks.POLISHED_ANDESITE_BRICK_WALL);
+                        output.accept(ModBlocks.CHISELED_POLISHED_ANDESITE_BRICKS);
                         output.accept(ModBlocks.POLISHED_ANDESITE_TILES);
                         output.accept(ModBlocks.CRACKED_POLISHED_ANDESITE_TILES);
                         output.accept(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS);

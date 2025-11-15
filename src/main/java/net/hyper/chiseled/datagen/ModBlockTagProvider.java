@@ -62,6 +62,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_GRANITE_BRICK_SLAB.get())
                 .add(ModBlocks.POLISHED_GRANITE_BRICK_WALL.get())
 
+                .add(ModBlocks.CHISELED_POLISHED_GRANITE_BRICKS.get())
+
                 .add(ModBlocks.POLISHED_GRANITE_TILES.get())
                 .add(ModBlocks.CRACKED_POLISHED_GRANITE_TILES.get())
                 .add(ModBlocks.POLISHED_GRANITE_TILE_STAIRS.get())
@@ -75,6 +77,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_SLAB.get())
                 .add(ModBlocks.POLISHED_DIORITE_BRICK_WALL.get())
 
+                .add(ModBlocks.CHISELED_POLISHED_DIORITE_BRICKS.get())
+
                 .add(ModBlocks.POLISHED_DIORITE_TILES.get())
                 .add(ModBlocks.CRACKED_POLISHED_DIORITE_TILES.get())
                 .add(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.get())
@@ -87,6 +91,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS.get())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.get())
                 .add(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.get())
+
+                .add(ModBlocks.CHISELED_POLISHED_ANDESITE_BRICKS.get())
 
                 .add(ModBlocks.POLISHED_ANDESITE_TILES.get())
                 .add(ModBlocks.CRACKED_POLISHED_ANDESITE_TILES.get())

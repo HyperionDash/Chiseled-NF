@@ -66,6 +66,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.POLISHED_GRANITE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.POLISHED_GRANITE_BRICK_WALL.get());
 
+        dropSelf(ModBlocks.CHISELED_POLISHED_GRANITE_BRICKS.get());
+
         dropSelf(ModBlocks.POLISHED_GRANITE_TILES.get());
         dropSelf(ModBlocks.CRACKED_POLISHED_GRANITE_TILES.get());
         dropSelf(ModBlocks.POLISHED_GRANITE_TILE_STAIRS.get());
@@ -81,6 +83,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.POLISHED_DIORITE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.POLISHED_DIORITE_BRICK_WALL.get());
 
+        dropSelf(ModBlocks.CHISELED_POLISHED_DIORITE_BRICKS.get());
+
         dropSelf(ModBlocks.POLISHED_DIORITE_TILES.get());
         dropSelf(ModBlocks.CRACKED_POLISHED_DIORITE_TILES.get());
         dropSelf(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.get());
@@ -95,6 +99,8 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.CHISELED_POLISHED_ANDESITE_BRICKS.get());
 
         dropSelf(ModBlocks.POLISHED_ANDESITE_TILES.get());
         dropSelf(ModBlocks.CRACKED_POLISHED_ANDESITE_TILES.get());

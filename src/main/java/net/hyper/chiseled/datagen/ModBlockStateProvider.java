@@ -73,6 +73,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.POLISHED_GRANITE_BRICK_SLAB);
         wallBlock(ModBlocks.POLISHED_GRANITE_BRICK_WALL.get(), blockTexture(ModBlocks.POLISHED_GRANITE_BRICKS.get()));
 
+        blockWithItem(ModBlocks.CHISELED_POLISHED_GRANITE_BRICKS);
+
         blockWithItem(ModBlocks.POLISHED_GRANITE_TILES);
         blockWithItem(ModBlocks.CRACKED_POLISHED_GRANITE_TILES);
         stairsBlock(ModBlocks.POLISHED_GRANITE_TILE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_GRANITE_TILES.get()));
@@ -90,14 +92,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.POLISHED_DIORITE_BRICK_SLAB);
         wallBlock(ModBlocks.POLISHED_DIORITE_BRICK_WALL.get(), blockTexture(ModBlocks.POLISHED_DIORITE_BRICKS.get()));
 
+        blockWithItem(ModBlocks.CHISELED_POLISHED_DIORITE_BRICKS);
+
         blockWithItem(ModBlocks.POLISHED_DIORITE_TILES);
         blockWithItem(ModBlocks.CRACKED_POLISHED_DIORITE_TILES);
         stairsBlock(ModBlocks.POLISHED_DIORITE_TILE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_DIORITE_TILES.get()));
         blockItem(ModBlocks.POLISHED_DIORITE_TILE_STAIRS);
         slabBlock(ModBlocks.POLISHED_DIORITE_TILE_SLAB.get(), blockTexture(ModBlocks.POLISHED_DIORITE_TILES.get()), blockTexture(ModBlocks.POLISHED_DIORITE_TILES.get()));
         blockItem(ModBlocks.POLISHED_DIORITE_TILE_SLAB);
-
-        wallBlock(ModBlocks.POLISHED_ANDESITE_WALL.get(), blockTexture(Blocks.POLISHED_ANDESITE));
 
         blockWithItem(ModBlocks.POLISHED_ANDESITE_BRICKS);
         blockWithItem(ModBlocks.CRACKED_POLISHED_ANDESITE_BRICKS);
@@ -106,6 +108,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB.get(), blockTexture(ModBlocks.POLISHED_ANDESITE_BRICKS.get()), blockTexture(ModBlocks.POLISHED_ANDESITE_BRICKS.get()));
         blockItem(ModBlocks.POLISHED_ANDESITE_BRICK_SLAB);
         wallBlock(ModBlocks.POLISHED_ANDESITE_BRICK_WALL.get(), blockTexture(ModBlocks.POLISHED_ANDESITE_BRICKS.get()));
+
+        blockWithItem(ModBlocks.CHISELED_POLISHED_ANDESITE_BRICKS);
 
         blockWithItem(ModBlocks.POLISHED_ANDESITE_TILES);
         blockWithItem(ModBlocks.CRACKED_POLISHED_ANDESITE_TILES);

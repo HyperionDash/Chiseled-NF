@@ -126,6 +126,10 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIRT).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> CHISELED_POLISHED_GRANITE_BRICKS = registerBlock("chiseled_polished_granite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIRT).requiresCorrectToolForDrops()));
+
     public static final DeferredBlock<Block> POLISHED_GRANITE_TILES = registerBlock("polished_granite_tiles",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIRT).requiresCorrectToolForDrops()));
@@ -159,6 +163,10 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.QUARTZ).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> CHISELED_POLISHED_DIORITE_BRICKS = registerBlock("chiseled_polished_diorite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.QUARTZ).requiresCorrectToolForDrops()));
+
     public static final DeferredBlock<Block> POLISHED_DIORITE_TILES = registerBlock("polished_diorite_tiles",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.QUARTZ).requiresCorrectToolForDrops()));
@@ -190,6 +198,10 @@ public class ModBlocks {
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
     public static final DeferredBlock<WallBlock> POLISHED_ANDESITE_BRICK_WALL = registerBlock("polished_andesite_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> CHISELED_POLISHED_ANDESITE_BRICKS = registerBlock("chiseled_polished_andesite_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.STONE).requiresCorrectToolForDrops()));
 
     public static final DeferredBlock<Block> POLISHED_ANDESITE_TILES = registerBlock("polished_andesite_tiles",
