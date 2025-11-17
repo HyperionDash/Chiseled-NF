@@ -140,7 +140,7 @@ public class ModCreativeModeTabs {
                         output.accept(Blocks.POLISHED_DEEPSLATE_SLAB);
                         output.accept(Blocks.POLISHED_DEEPSLATE_WALL);
                         output.accept(Blocks.DEEPSLATE_BRICKS);
-                        output.accept(Blocks.DEEPSLATE_BRICKS);
+                        output.accept(Blocks.CRACKED_DEEPSLATE_BRICKS);
                         output.accept(Blocks.DEEPSLATE_BRICK_STAIRS);
                         output.accept(Blocks.DEEPSLATE_BRICK_SLAB);
                         output.accept(Blocks.DEEPSLATE_BRICK_WALL);
@@ -192,6 +192,72 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS);
                         output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB);
                         output.accept(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL);
+
+                        output.accept(Blocks.SANDSTONE);
+                        output.accept(Blocks.SANDSTONE_STAIRS);
+                        output.accept(Blocks.SANDSTONE_SLAB);
+                        output.accept(Blocks.SANDSTONE_WALL);
+                        output.accept(Blocks.CHISELED_SANDSTONE);
+                        output.accept(Blocks.SMOOTH_SANDSTONE);
+                        output.accept(Blocks.SMOOTH_SANDSTONE_STAIRS);
+                        output.accept(Blocks.SMOOTH_SANDSTONE_SLAB);
+                        output.accept(Blocks.CUT_SANDSTONE);
+                        output.accept(Blocks.CUT_SANDSTONE_SLAB);
+                        output.accept(ModBlocks.SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.SANDSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.SANDSTONE_TILES);
+                        output.accept(ModBlocks.CRACKED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.SANDSTONE_TILE_SLAB);
+
+                        output.accept(Blocks.RED_SANDSTONE);
+                        output.accept(Blocks.RED_SANDSTONE_STAIRS);
+                        output.accept(Blocks.RED_SANDSTONE_SLAB);
+                        output.accept(Blocks.RED_SANDSTONE_WALL);
+                        output.accept(Blocks.CHISELED_RED_SANDSTONE);
+                        output.accept(Blocks.SMOOTH_RED_SANDSTONE);
+                        output.accept(Blocks.SMOOTH_RED_SANDSTONE_STAIRS);
+                        output.accept(Blocks.SMOOTH_RED_SANDSTONE_SLAB);
+                        output.accept(Blocks.CUT_RED_SANDSTONE);
+                        output.accept(Blocks.CUT_RED_SANDSTONE_SLAB);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.RED_SANDSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.CRACKED_RED_SANDSTONE_TILES);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.RED_SANDSTONE_TILE_SLAB);
+
+                        output.accept(Blocks.PRISMARINE);
+                        output.accept(Blocks.PRISMARINE_STAIRS);
+                        output.accept(Blocks.PRISMARINE_SLAB);
+                        output.accept(Blocks.PRISMARINE_WALL);
+                        output.accept(ModBlocks.POLISHED_PRISMARINE);
+                        output.accept(ModBlocks.POLISHED_PRISMARINE_STAIRS);
+                        output.accept(ModBlocks.POLISHED_PRISMARINE_SLAB);
+                        output.accept(ModBlocks.POLISHED_PRISMARINE_WALL);
+                        output.accept(Blocks.PRISMARINE_BRICKS);
+                        output.accept(Blocks.PRISMARINE_BRICK_STAIRS);
+                        output.accept(Blocks.PRISMARINE_BRICK_SLAB);
+                        output.accept(ModBlocks.PRISMARINE_BRICK_WALL);
+                        output.accept(ModBlocks.PRISMARINE_TILES);
+                        output.accept(ModBlocks.PRISMARINE_TILE_STAIRS);
+                        output.accept(ModBlocks.PRISMARINE_TILE_SLAB);
+                        output.accept(ModBlocks.MIXED_PRISMARINE_TILES);
+                        output.accept(ModBlocks.MIXED_PRISMARINE_TILE_SLAB);
+                        output.accept(Blocks.DARK_PRISMARINE);
+                        output.accept(Blocks.DARK_PRISMARINE_STAIRS);
+                        output.accept(Blocks.DARK_PRISMARINE_SLAB);
+                        output.accept(ModBlocks.DARK_PRISMARINE_WALL);
+                        output.accept(ModBlocks.DARK_PRISMARINE_TILES);
+                        output.accept(ModBlocks.DARK_PRISMARINE_TILE_STAIRS);
+                        output.accept(ModBlocks.DARK_PRISMARINE_TILE_SLAB);
+                        
                     }).build());
 
 

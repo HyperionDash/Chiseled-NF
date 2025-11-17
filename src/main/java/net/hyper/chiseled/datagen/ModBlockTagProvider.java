@@ -135,7 +135,44 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get())
                 .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get())
                 .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get())
+
+                .add(ModBlocks.SANDSTONE_BRICKS.get())
+                .add(ModBlocks.CRACKED_SANDSTONE_BRICKS.get())
+                .add(ModBlocks.SANDSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.SANDSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.SANDSTONE_BRICK_WALL.get())
+                .add(ModBlocks.SANDSTONE_TILES.get())
+                .add(ModBlocks.CRACKED_SANDSTONE_TILES.get())
+                .add(ModBlocks.SANDSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.SANDSTONE_TILE_SLAB.get())
+
+                .add(ModBlocks.RED_SANDSTONE_BRICKS.get())
+                .add(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_WALL.get())
+                .add(ModBlocks.RED_SANDSTONE_TILES.get())
+                .add(ModBlocks.CRACKED_RED_SANDSTONE_TILES.get())
+                .add(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.RED_SANDSTONE_TILE_SLAB.get())
+
+                .add(ModBlocks.POLISHED_PRISMARINE.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_SLAB.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_WALL.get())
+
+                .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
+                .add(ModBlocks.DARK_PRISMARINE_WALL.get())
+
+                .add(ModBlocks.PRISMARINE_TILES.get())
+                .add(ModBlocks.PRISMARINE_TILE_STAIRS.get())
+                .add(ModBlocks.PRISMARINE_TILE_SLAB.get())
+                .add(ModBlocks.MIXED_PRISMARINE_TILES.get())
+                .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get())
+                .add(ModBlocks.DARK_PRISMARINE_TILES.get())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL.get())
@@ -154,7 +191,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PACKED_MUD_WALL.get())
                 .add(ModBlocks.MOSSY_MUD_BRICK_WALL.get())
                 .add(ModBlocks.SMALL_MUD_BRICK_WALL.get())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get())
+                .add(ModBlocks.SANDSTONE_BRICK_WALL.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_WALL.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_WALL.get())
+                .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
+                .add(ModBlocks.DARK_PRISMARINE_WALL.get());
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
@@ -177,7 +219,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MUD_TILE_STAIRS.get())
                 .add(ModBlocks.MOSSY_MUD_TILE_STAIRS.get())
                 .add(ModBlocks.SMALL_MUD_BRICK_STAIRS.get())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.get())
+                .add(ModBlocks.SANDSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.SANDSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.get())
+                .add(ModBlocks.PRISMARINE_TILE_STAIRS.get())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get());
 
         tag(BlockTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
@@ -200,6 +249,14 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MUD_TILE_SLAB.get())
                 .add(ModBlocks.MOSSY_MUD_TILE_SLAB.get())
                 .add(ModBlocks.SMALL_MUD_BRICK_SLAB.get())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get())
+                .add(ModBlocks.SANDSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.SANDSTONE_TILE_SLAB.get())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.RED_SANDSTONE_TILE_SLAB.get())
+                .add(ModBlocks.PRISMARINE_TILE_SLAB.get())
+                .add(ModBlocks.POLISHED_PRISMARINE_SLAB.get())
+                .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get());
     }
 }

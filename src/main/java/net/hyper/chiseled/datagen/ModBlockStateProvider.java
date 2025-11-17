@@ -101,6 +101,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.POLISHED_DIORITE_TILE_SLAB.get(), blockTexture(ModBlocks.POLISHED_DIORITE_TILES.get()), blockTexture(ModBlocks.POLISHED_DIORITE_TILES.get()));
         blockItem(ModBlocks.POLISHED_DIORITE_TILE_SLAB);
 
+        wallBlock(ModBlocks.POLISHED_ANDESITE_WALL.get(), blockTexture(Blocks.POLISHED_ANDESITE));
+
         blockWithItem(ModBlocks.POLISHED_ANDESITE_BRICKS);
         blockWithItem(ModBlocks.CRACKED_POLISHED_ANDESITE_BRICKS);
         stairsBlock(ModBlocks.POLISHED_ANDESITE_BRICK_STAIRS.get(), blockTexture(ModBlocks.POLISHED_ANDESITE_BRICKS.get()));
@@ -177,6 +179,59 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get(), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()));
         blockItem(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB);
         wallBlock(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get(), blockTexture(ModBlocks.MOSSY_SMALL_MUD_BRICKS.get()));
+
+        blockWithItem(ModBlocks.SANDSTONE_BRICKS);
+        blockWithItem(ModBlocks.CRACKED_SANDSTONE_BRICKS);
+        stairsBlock(ModBlocks.SANDSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.SANDSTONE_BRICKS.get()));
+        blockItem(ModBlocks.SANDSTONE_BRICK_STAIRS);
+        slabBlock(ModBlocks.SANDSTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.SANDSTONE_BRICKS.get()), blockTexture(ModBlocks.SANDSTONE_BRICKS.get()));
+        blockItem(ModBlocks.SANDSTONE_BRICK_SLAB);
+        wallBlock(ModBlocks.SANDSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.SANDSTONE_BRICKS.get()));
+
+        blockWithItem(ModBlocks.SANDSTONE_TILES);
+        blockWithItem(ModBlocks.CRACKED_SANDSTONE_TILES);
+        stairsBlock(ModBlocks.SANDSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.SANDSTONE_TILES.get()));
+        blockItem(ModBlocks.SANDSTONE_TILE_STAIRS);
+        slabBlock(ModBlocks.SANDSTONE_TILE_SLAB.get(), blockTexture(ModBlocks.SANDSTONE_TILES.get()), blockTexture(ModBlocks.SANDSTONE_TILES.get()));
+        blockItem(ModBlocks.SANDSTONE_TILE_SLAB);
+
+        blockWithItem(ModBlocks.RED_SANDSTONE_BRICKS);
+        blockWithItem(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS);
+        stairsBlock(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.RED_SANDSTONE_BRICKS.get()));
+        blockItem(ModBlocks.RED_SANDSTONE_BRICK_STAIRS);
+        slabBlock(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.RED_SANDSTONE_BRICKS.get()), blockTexture(ModBlocks.RED_SANDSTONE_BRICKS.get()));
+        blockItem(ModBlocks.RED_SANDSTONE_BRICK_SLAB);
+        wallBlock(ModBlocks.RED_SANDSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.RED_SANDSTONE_BRICKS.get()));
+
+        blockWithItem(ModBlocks.RED_SANDSTONE_TILES);
+        blockWithItem(ModBlocks.CRACKED_RED_SANDSTONE_TILES);
+        stairsBlock(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get(), blockTexture(ModBlocks.RED_SANDSTONE_TILES.get()));
+        blockItem(ModBlocks.RED_SANDSTONE_TILE_STAIRS);
+        slabBlock(ModBlocks.RED_SANDSTONE_TILE_SLAB.get(), blockTexture(ModBlocks.RED_SANDSTONE_TILES.get()), blockTexture(ModBlocks.RED_SANDSTONE_TILES.get()));
+        blockItem(ModBlocks.RED_SANDSTONE_TILE_SLAB);
+
+        blockWithItem(ModBlocks.POLISHED_PRISMARINE);
+        stairsBlock(ModBlocks.POLISHED_PRISMARINE_STAIRS.get(), blockTexture(ModBlocks.POLISHED_PRISMARINE.get()));
+        blockItem(ModBlocks.POLISHED_PRISMARINE_STAIRS);
+        slabBlock(ModBlocks.POLISHED_PRISMARINE_SLAB.get(), blockTexture(ModBlocks.POLISHED_PRISMARINE.get()), blockTexture(ModBlocks.POLISHED_PRISMARINE.get()));
+        blockItem(ModBlocks.POLISHED_PRISMARINE_SLAB);
+        wallBlock(ModBlocks.POLISHED_PRISMARINE_WALL.get(), blockTexture(ModBlocks.POLISHED_PRISMARINE.get()));
+
+        wallBlock(ModBlocks.PRISMARINE_BRICK_WALL.get(), blockTexture(Blocks.PRISMARINE_BRICKS));
+
+        blockWithItem(ModBlocks.PRISMARINE_TILES);
+        stairsBlock(ModBlocks.PRISMARINE_TILE_STAIRS.get(), blockTexture(ModBlocks.PRISMARINE_TILES.get()));
+        blockItem(ModBlocks.PRISMARINE_TILE_STAIRS);
+        slabBlock(ModBlocks.PRISMARINE_TILE_SLAB.get(), blockTexture(ModBlocks.PRISMARINE_TILES.get()), blockTexture(ModBlocks.PRISMARINE_TILES.get()));
+        blockItem(ModBlocks.PRISMARINE_TILE_SLAB);
+
+        wallBlock(ModBlocks.DARK_PRISMARINE_WALL.get(), blockTexture(Blocks.DARK_PRISMARINE));
+
+        blockWithItem(ModBlocks.DARK_PRISMARINE_TILES);
+        stairsBlock(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get(), blockTexture(ModBlocks.DARK_PRISMARINE_TILES.get()));
+        blockItem(ModBlocks.DARK_PRISMARINE_TILE_STAIRS);
+        slabBlock(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get(), blockTexture(ModBlocks.DARK_PRISMARINE_TILES.get()), blockTexture(ModBlocks.DARK_PRISMARINE_TILES.get()));
+        blockItem(ModBlocks.DARK_PRISMARINE_TILE_SLAB);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

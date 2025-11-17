@@ -325,6 +325,112 @@ public class ModBlocks {
             () -> new WallBlock(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(3F).sound(SoundType.MUD_BRICKS).mapColor(MapColor.TERRACOTTA_LIGHT_GRAY).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> SANDSTONE_BRICKS = registerBlock("sandstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_BRICKS = registerBlock("cracked_sandstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> SANDSTONE_BRICK_STAIRS = registerBlock("sandstone_brick_stairs",
+            () -> new StairBlock(ModBlocks.SANDSTONE_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> SANDSTONE_BRICK_SLAB = registerBlock("sandstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> SANDSTONE_BRICK_WALL = registerBlock("sandstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> SANDSTONE_TILES = registerBlock("sandstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> CRACKED_SANDSTONE_TILES = registerBlock("cracked_sandstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> SANDSTONE_TILE_STAIRS = registerBlock("sandstone_tile_stairs",
+            () -> new StairBlock(ModBlocks.SANDSTONE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> SANDSTONE_TILE_SLAB = registerBlock("sandstone_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.SAND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> RED_SANDSTONE_BRICKS = registerBlock("red_sandstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_BRICKS = registerBlock("cracked_red_sandstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> RED_SANDSTONE_BRICK_STAIRS = registerBlock("red_sandstone_brick_stairs",
+            () -> new StairBlock(ModBlocks.RED_SANDSTONE_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> RED_SANDSTONE_BRICK_SLAB = registerBlock("red_sandstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> RED_SANDSTONE_BRICK_WALL = registerBlock("red_sandstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> RED_SANDSTONE_TILES = registerBlock("red_sandstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<Block> CRACKED_RED_SANDSTONE_TILES = registerBlock("cracked_red_sandstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> RED_SANDSTONE_TILE_STAIRS = registerBlock("red_sandstone_tile_stairs",
+            () -> new StairBlock(ModBlocks.RED_SANDSTONE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> RED_SANDSTONE_TILE_SLAB = registerBlock("red_sandstone_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(0.8F).explosionResistance(0.8F).sound(SoundType.STONE).mapColor(MapColor.COLOR_ORANGE).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> POLISHED_PRISMARINE = registerBlock("polished_prismarine",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> POLISHED_PRISMARINE_STAIRS = registerBlock("polished_prismarine_stairs",
+            () -> new StairBlock(ModBlocks.POLISHED_PRISMARINE.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> POLISHED_PRISMARINE_SLAB = registerBlock("polished_prismarine_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> POLISHED_PRISMARINE_WALL = registerBlock("polished_prismarine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> PRISMARINE_BRICK_WALL = registerBlock("prismarine_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> PRISMARINE_TILES = registerBlock("prismarine_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> PRISMARINE_TILE_STAIRS = registerBlock("prismarine_tile_stairs",
+            () -> new StairBlock(ModBlocks.PRISMARINE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> PRISMARINE_TILE_SLAB = registerBlock("prismarine_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> MIXED_PRISMARINE_TILES = registerBlock("mixed_prismarine_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> MIXED_PRISMARINE_TILE_SLAB = registerBlock("mixed_prismarine_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<WallBlock> DARK_PRISMARINE_WALL = registerBlock("dark_prismarine_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> DARK_PRISMARINE_TILES = registerBlock("dark_prismarine_tiles",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> DARK_PRISMARINE_TILE_STAIRS = registerBlock("dark_prismarine_tile_stairs",
+            () -> new StairBlock(ModBlocks.DARK_PRISMARINE_TILES.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> DARK_PRISMARINE_TILE_SLAB = registerBlock("dark_prismarine_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

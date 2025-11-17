@@ -127,5 +127,42 @@
   "block.chiseled.mossy_small_mud_brick_slab": "Mossy Small Mud Brick Slab",
   "block.chiseled.mossy_small_mud_brick_wall": "Mossy Small Mud Brick Wall",
 
+  "block.chiseled.sandstone_bricks": "Sandstone Bricks",
+  "block.chiseled.cracked_sandstone_bricks": "Cracked Sandstone Bricks",
+  "block.chiseled.sandstone_brick_stairs": "Sandstone Brick Stairs",
+  "block.chiseled.sandstone_brick_slab": "Sandstone Brick Slab",
+  "block.chiseled.sandstone_brick_wall": "Sandstone Brick Wall",
+
+  "block.chiseled.sandstone_tiles": "Sandstone Tiles",
+  "block.chiseled.cracked_sandstone_tiles": "Cracked Sandstone Tiles",
+  "block.chiseled.sandstone_tile_stairs": "Sandstone Tile Stairs",
+  "block.chiseled.sandstone_tile_slab": "Sandstone Tile Slab",
+
+  "block.chiseled.red_sandstone_bricks": "Red Sandstone Bricks",
+  "block.chiseled.cracked_red_sandstone_bricks": "Cracked Red Sandstone Bricks",
+  "block.chiseled.red_sandstone_brick_stairs": "Red Sandstone Brick Stairs",
+  "block.chiseled.red_sandstone_brick_slab": "Red Sandstone Brick Slab",
+  "block.chiseled.red_sandstone_brick_wall": "Red Sandstone Brick Wall",
+
+  "block.chiseled.red_sandstone_tiles": "Red Sandstone Tiles",
+  "block.chiseled.cracked_red_sandstone_tiles": "Cracked Red Sandstone Tiles",
+  "block.chiseled.red_sandstone_tile_stairs": "Red Sandstone Tile Stairs",
+  "block.chiseled.red_sandstone_tile_slab": "Red Sandstone Tile Slab",
+
+  "block.chiseled.polished_prismarine": "Polished Prismarine",
+  "block.chiseled.polished_prismarine_stairs": "Polished Prismarine Stairs",
+  "block.chiseled.polished_prismarine_slab": "Polished Prismarine Slab",
+  "block.chiseled.polished_prismarine_wall": "Polished Prismarine Wall",
+  "block.chiseled.prismarine_brick_wall": "Prismarine Brick Wall",
+  "block.chiseled.prismarine_tiles": "Prismarine Tiles",
+  "block.chiseled.prismarine_tile_stairs": "Prismarine Tile Stairs",
+  "block.chiseled.prismarine_tile_slab": "Prismarine Tile Slab",
+  "block.chiseled.mixed_prismarine_tiles": "Mixed Prismarine Tiles",
+  "block.chiseled.mixed_prismarine_tile_slab": "Mixed Prismarine Tile Slab",
+  "block.chiseled.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.chiseled.dark_prismarine_tiles": "Dark Prismarine Tiles",
+  "block.chiseled.dark_prismarine_tile_stairs": "Dark Prismarine Tile Stairs",
+  "block.chiseled.dark_prismarine_tile_slab": "Dark Prismarine Tile Slab",
+
   "creativetab.chiseled.chiseled_tab": "Chiseled"
 }

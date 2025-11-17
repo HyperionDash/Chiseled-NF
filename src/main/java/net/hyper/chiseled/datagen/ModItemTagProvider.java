@@ -38,7 +38,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.PACKED_MUD_WALL.asItem())
                 .add(ModBlocks.MOSSY_MUD_BRICK_WALL.asItem())
                 .add(ModBlocks.SMALL_MUD_BRICK_WALL.asItem())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.asItem());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.asItem())
+                .add(ModBlocks.SANDSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.POLISHED_PRISMARINE_WALL.asItem())
+                .add(ModBlocks.PRISMARINE_BRICK_WALL.asItem())
+                .add(ModBlocks.DARK_PRISMARINE_WALL.asItem());
 
         tag(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.POLISHED_STONE.asItem())
@@ -73,7 +78,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.MUD_TILE_STAIRS.asItem())
                 .add(ModBlocks.MOSSY_MUD_TILE_STAIRS.asItem())
                 .add(ModBlocks.SMALL_MUD_BRICK_STAIRS.asItem())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.asItem());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_STAIRS.asItem())
+                .add(ModBlocks.SANDSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.SANDSTONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.RED_SANDSTONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.asItem())
+                .add(ModBlocks.PRISMARINE_TILE_STAIRS.asItem())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.asItem());
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.asItem())
@@ -96,6 +108,14 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.MUD_TILE_SLAB.asItem())
                 .add(ModBlocks.MOSSY_MUD_TILE_SLAB.asItem())
                 .add(ModBlocks.SMALL_MUD_BRICK_SLAB.asItem())
-                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.asItem());
+                .add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.asItem())
+                .add(ModBlocks.SANDSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.SANDSTONE_TILE_SLAB.asItem())
+                .add(ModBlocks.RED_SANDSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.RED_SANDSTONE_TILE_SLAB.asItem())
+                .add(ModBlocks.POLISHED_PRISMARINE_SLAB.asItem())
+                .add(ModBlocks.PRISMARINE_TILE_SLAB.asItem())
+                .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.asItem())
+                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.asItem());
     }
 }

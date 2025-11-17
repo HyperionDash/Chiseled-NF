@@ -158,6 +158,56 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.MOSSY_SMALL_MUD_BRICK_SLAB.get()));
         dropSelf(ModBlocks.MOSSY_SMALL_MUD_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.SANDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.CRACKED_SANDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.SANDSTONE_BRICK_STAIRS.get());
+        add(ModBlocks.SANDSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SANDSTONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.SANDSTONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.SANDSTONE_TILES.get());
+        dropSelf(ModBlocks.CRACKED_SANDSTONE_TILES.get());
+        dropSelf(ModBlocks.SANDSTONE_TILE_STAIRS.get());
+        add(ModBlocks.SANDSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SANDSTONE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.RED_SANDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.CRACKED_RED_SANDSTONE_BRICKS.get());
+        dropSelf(ModBlocks.RED_SANDSTONE_BRICK_STAIRS.get());
+        add(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RED_SANDSTONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.RED_SANDSTONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.RED_SANDSTONE_TILES.get());
+        dropSelf(ModBlocks.CRACKED_RED_SANDSTONE_TILES.get());
+        dropSelf(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get());
+        add(ModBlocks.RED_SANDSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.RED_SANDSTONE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.POLISHED_PRISMARINE.get());
+        dropSelf(ModBlocks.POLISHED_PRISMARINE_STAIRS.get());
+        add(ModBlocks.POLISHED_PRISMARINE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_PRISMARINE_SLAB.get()));
+        dropSelf(ModBlocks.POLISHED_PRISMARINE_WALL.get());
+
+        dropSelf(ModBlocks.PRISMARINE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.PRISMARINE_TILES.get());
+        dropSelf(ModBlocks.PRISMARINE_TILE_STAIRS.get());
+        add(ModBlocks.PRISMARINE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.PRISMARINE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.MIXED_PRISMARINE_TILES.get());
+        add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.DARK_PRISMARINE_WALL.get());
+
+        dropSelf(ModBlocks.DARK_PRISMARINE_TILES.get());
+        dropSelf(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get());
+        add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get()));
     }
 
     @Override
