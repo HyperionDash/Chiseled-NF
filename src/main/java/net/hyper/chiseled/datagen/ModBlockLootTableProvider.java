@@ -208,6 +208,17 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         dropSelf(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get());
         add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.GILDED_BLACKSTONE_STAIRS.get());
+        add(ModBlocks.GILDED_BLACKSTONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GILDED_BLACKSTONE_SLAB.get()));
+        dropSelf(ModBlocks.GILDED_BLACKSTONE_WALL.get());
+
+        dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get());
+        dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS.get());
+        add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.get());
     }
 
     @Override

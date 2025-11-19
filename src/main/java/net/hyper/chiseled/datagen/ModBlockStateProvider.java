@@ -232,6 +232,20 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.DARK_PRISMARINE_TILE_STAIRS);
         slabBlock(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get(), blockTexture(ModBlocks.DARK_PRISMARINE_TILES.get()), blockTexture(ModBlocks.DARK_PRISMARINE_TILES.get()));
         blockItem(ModBlocks.DARK_PRISMARINE_TILE_SLAB);
+
+        stairsBlock(ModBlocks.GILDED_BLACKSTONE_STAIRS.get(), blockTexture(Blocks.GILDED_BLACKSTONE));
+        blockItem(ModBlocks.GILDED_BLACKSTONE_STAIRS);
+        slabBlock(ModBlocks.GILDED_BLACKSTONE_SLAB.get(), blockTexture(Blocks.GILDED_BLACKSTONE), blockTexture(Blocks.GILDED_BLACKSTONE));
+        blockItem(ModBlocks.GILDED_BLACKSTONE_SLAB);
+        wallBlock(ModBlocks.GILDED_BLACKSTONE_WALL.get(), blockTexture(Blocks.GILDED_BLACKSTONE));
+
+
+        blockWithItem(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS);
+        stairsBlock(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS.get(), blockTexture(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get()));
+        blockItem(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS);
+        slabBlock(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get(), blockTexture(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get()), blockTexture(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get()));
+        blockItem(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB);
+        wallBlock(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.get(), blockTexture(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get()));
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

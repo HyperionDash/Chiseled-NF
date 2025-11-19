@@ -431,6 +431,29 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.of()
                     .strength(1.5F).explosionResistance(6F).sound(SoundType.STONE).mapColor(MapColor.DIAMOND).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<StairBlock> GILDED_BLACKSTONE_STAIRS = registerBlock("gilded_blackstone_stairs",
+            () -> new StairBlock(Blocks.GILDED_BLACKSTONE.defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> GILDED_BLACKSTONE_SLAB = registerBlock("gilded_blackstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> GILDED_BLACKSTONE_WALL = registerBlock("gilded_blackstone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+
+    public static final DeferredBlock<Block> GILDED_POLISHED_BLACKSTONE_BRICKS = registerBlock("gilded_polished_blackstone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<StairBlock> GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS = registerBlock("gilded_polished_blackstone_brick_stairs",
+            () -> new StairBlock(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<SlabBlock> GILDED_POLISHED_BLACKSTONE_BRICK_SLAB = registerBlock("gilded_polished_blackstone_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+    public static final DeferredBlock<WallBlock> GILDED_POLISHED_BLACKSTONE_BRICK_WALL = registerBlock("gilded_polished_blackstone_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5F).explosionResistance(6F).sound(SoundType.GILDED_BLACKSTONE).mapColor(MapColor.COLOR_BLACK).requiresCorrectToolForDrops()));
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

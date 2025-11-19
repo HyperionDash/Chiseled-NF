@@ -172,7 +172,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get())
                 .add(ModBlocks.DARK_PRISMARINE_TILES.get())
                 .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get())
-                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get());
+                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get())
+
+                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.get())
+                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.get())
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL.get())
@@ -196,7 +200,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RED_SANDSTONE_BRICK_WALL.get())
                 .add(ModBlocks.POLISHED_PRISMARINE_WALL.get())
                 .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
-                .add(ModBlocks.DARK_PRISMARINE_WALL.get());
+                .add(ModBlocks.DARK_PRISMARINE_WALL.get())
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get());
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
@@ -226,7 +231,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.RED_SANDSTONE_TILE_STAIRS.get())
                 .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.get())
                 .add(ModBlocks.PRISMARINE_TILE_STAIRS.get())
-                .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get());
+                .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get())
+                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.get());
 
         tag(BlockTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
@@ -257,6 +263,7 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.PRISMARINE_TILE_SLAB.get())
                 .add(ModBlocks.POLISHED_PRISMARINE_SLAB.get())
                 .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get())
-                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get());
+                .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get())
+                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.get());
     }
 }
