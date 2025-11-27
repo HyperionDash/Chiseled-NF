@@ -44,7 +44,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_PRISMARINE_WALL.asItem())
                 .add(ModBlocks.PRISMARINE_BRICK_WALL.asItem())
                 .add(ModBlocks.DARK_PRISMARINE_WALL.asItem())
-                .add(ModBlocks.GILDED_BLACKSTONE_WALL.asItem());
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL.asItem())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.END_STONE_WALL.asItem())
+                .add(ModBlocks.POLISHED_END_STONE_WALL.asItem())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.asItem());
 
         tag(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.POLISHED_STONE.asItem())
@@ -87,7 +93,16 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.asItem())
                 .add(ModBlocks.PRISMARINE_TILE_STAIRS.asItem())
                 .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.asItem())
-                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.asItem());
+                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.asItem())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.END_STONE_STAIRS.asItem())
+                .add(ModBlocks.POLISHED_END_STONE_STAIRS.asItem())
+                .add(ModBlocks.END_STONE_TILE_STAIRS.asItem())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.asItem());
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.asItem())
@@ -119,6 +134,15 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.PRISMARINE_TILE_SLAB.asItem())
                 .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.asItem())
                 .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.asItem())
-                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.asItem());
+                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.asItem())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB.asItem())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB.asItem())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.END_STONE_SLAB.asItem())
+                .add(ModBlocks.POLISHED_END_STONE_SLAB.asItem())
+                .add(ModBlocks.END_STONE_TILE_SLAB.asItem())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.asItem());
     }
 }

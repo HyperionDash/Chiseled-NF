@@ -219,6 +219,57 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.POLISHED_BLACKSTONE_TILES.get());
+        dropSelf(ModBlocks.CRACKED_POLISHED_BLACKSTONE_TILES.get());
+        dropSelf(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS.get());
+        add(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILES.get());
+        dropSelf(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_STAIRS.get());
+        add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICKS.get());
+        dropSelf(ModBlocks.CRACKED_SMALL_POLISHED_BLACKSTONE_BRICKS.get());
+        dropSelf(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get());
+        add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICKS.get());
+        dropSelf(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get());
+        add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.END_STONE_STAIRS.get());
+        add(ModBlocks.END_STONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.END_STONE_SLAB.get()));
+        dropSelf(ModBlocks.END_STONE_WALL.get());
+
+        dropSelf(ModBlocks.POLISHED_END_STONE.get());
+        dropSelf(ModBlocks.POLISHED_END_STONE_STAIRS.get());
+        add(ModBlocks.POLISHED_END_STONE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.POLISHED_END_STONE_SLAB.get()));
+        dropSelf(ModBlocks.POLISHED_END_STONE_WALL.get());
+
+        dropSelf(ModBlocks.CRACKED_END_STONE_BRICKS.get());
+        dropSelf(ModBlocks.CHISELED_END_STONE_BRICKS.get());
+
+        dropSelf(ModBlocks.END_STONE_TILES.get());
+        dropSelf(ModBlocks.CRACKED_END_STONE_TILES.get());
+        dropSelf(ModBlocks.END_STONE_TILE_STAIRS.get());
+        add(ModBlocks.END_STONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.END_STONE_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.SMALL_END_STONE_BRICKS.get());
+        dropSelf(ModBlocks.CRACKED_SMALL_END_STONE_BRICKS.get());
+        dropSelf(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get());
+        add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
     }
 
     @Override

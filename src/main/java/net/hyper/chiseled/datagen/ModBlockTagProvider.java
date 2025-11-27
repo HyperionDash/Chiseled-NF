@@ -176,7 +176,55 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
                 .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.get())
                 .add(ModBlocks.GILDED_BLACKSTONE_SLAB.get())
-                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get());
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get())
+
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.get())
+
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILES.get())
+                .add(ModBlocks.CRACKED_POLISHED_BLACKSTONE_TILES.get())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB.get())
+
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILES.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB.get())
+
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICKS.get())
+                .add(ModBlocks.CRACKED_SMALL_POLISHED_BLACKSTONE_BRICKS.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
+
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICKS.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
+
+                .add(ModBlocks.END_STONE_STAIRS.get())
+                .add(ModBlocks.END_STONE_SLAB.get())
+                .add(ModBlocks.END_STONE_WALL.get())
+
+                .add(ModBlocks.POLISHED_END_STONE.get())
+                .add(ModBlocks.POLISHED_END_STONE_STAIRS.get())
+                .add(ModBlocks.POLISHED_END_STONE_SLAB.get())
+                .add(ModBlocks.POLISHED_END_STONE_WALL.get())
+
+                .add(ModBlocks.CRACKED_END_STONE_BRICKS.get())
+                .add(ModBlocks.CHISELED_END_STONE_BRICKS.get())
+
+                .add(ModBlocks.END_STONE_TILES.get())
+                .add(ModBlocks.CRACKED_END_STONE_TILES.get())
+                .add(ModBlocks.END_STONE_TILE_STAIRS.get())
+                .add(ModBlocks.END_STONE_TILE_SLAB.get())
+
+                .add(ModBlocks.SMALL_END_STONE_BRICKS.get())
+                .add(ModBlocks.CRACKED_SMALL_END_STONE_BRICKS.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL.get())
@@ -201,7 +249,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_PRISMARINE_WALL.get())
                 .add(ModBlocks.PRISMARINE_BRICK_WALL.get())
                 .add(ModBlocks.DARK_PRISMARINE_WALL.get())
-                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get());
+                .add(ModBlocks.GILDED_BLACKSTONE_WALL.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
+                .add(ModBlocks.END_STONE_WALL.get())
+                .add(ModBlocks.POLISHED_END_STONE_WALL.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
@@ -232,7 +286,16 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_PRISMARINE_STAIRS.get())
                 .add(ModBlocks.PRISMARINE_TILE_STAIRS.get())
                 .add(ModBlocks.DARK_PRISMARINE_TILE_STAIRS.get())
-                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.get());
+                .add(ModBlocks.GILDED_BLACKSTONE_STAIRS.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_STAIRS.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS.get())
+                .add(ModBlocks.END_STONE_STAIRS.get())
+                .add(ModBlocks.POLISHED_END_STONE_STAIRS.get())
+                .add(ModBlocks.END_STONE_TILE_STAIRS.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get());
 
         tag(BlockTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
@@ -264,6 +327,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.POLISHED_PRISMARINE_SLAB.get())
                 .add(ModBlocks.MIXED_PRISMARINE_TILE_SLAB.get())
                 .add(ModBlocks.DARK_PRISMARINE_TILE_SLAB.get())
-                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.get());
+                .add(ModBlocks.GILDED_BLACKSTONE_SLAB.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB.get())
+                .add(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB.get())
+                .add(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get())
+                .add(ModBlocks.END_STONE_SLAB.get())
+                .add(ModBlocks.POLISHED_END_STONE_SLAB.get())
+                .add(ModBlocks.END_STONE_TILE_SLAB.get())
+                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get());
     }
 }

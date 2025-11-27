@@ -257,7 +257,72 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.DARK_PRISMARINE_TILES);
                         output.accept(ModBlocks.DARK_PRISMARINE_TILE_STAIRS);
                         output.accept(ModBlocks.DARK_PRISMARINE_TILE_SLAB);
-                        
+
+                        output.accept(Blocks.BLACKSTONE);
+                        output.accept(Blocks.BLACKSTONE_STAIRS);
+                        output.accept(Blocks.BLACKSTONE_SLAB);
+                        output.accept(Blocks.BLACKSTONE_WALL);
+                        output.accept(Blocks.GILDED_BLACKSTONE);
+                        output.accept(ModBlocks.GILDED_BLACKSTONE_STAIRS);
+                        output.accept(ModBlocks.GILDED_BLACKSTONE_SLAB);
+                        output.accept(ModBlocks.GILDED_BLACKSTONE_WALL);
+                        output.accept(Blocks.CHISELED_POLISHED_BLACKSTONE);
+                        output.accept(Blocks.POLISHED_BLACKSTONE);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_STAIRS);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_SLAB);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_WALL);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_PRESSURE_PLATE);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_BUTTON);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(Blocks.CRACKED_POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_BRICK_STAIRS);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_BRICK_SLAB);
+                        output.accept(Blocks.POLISHED_BLACKSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.POLISHED_BLACKSTONE_TILES);
+                        output.accept(ModBlocks.CRACKED_POLISHED_BLACKSTONE_TILES);
+                        output.accept(ModBlocks.POLISHED_BLACKSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.POLISHED_BLACKSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILES);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_STAIRS);
+                        output.accept(ModBlocks.GILDED_POLISHED_BLACKSTONE_TILE_SLAB);
+                        output.accept(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_SMALL_POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.SMALL_POLISHED_BLACKSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICKS);
+                        output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB);
+                        output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL);
+
+                        output.accept(Blocks.END_STONE);
+                        output.accept(ModBlocks.END_STONE_STAIRS);
+                        output.accept(ModBlocks.END_STONE_SLAB);
+                        output.accept(ModBlocks.END_STONE_WALL);
+                        output.accept(ModBlocks.POLISHED_END_STONE);
+                        output.accept(ModBlocks.POLISHED_END_STONE_STAIRS);
+                        output.accept(ModBlocks.POLISHED_END_STONE_SLAB);
+                        output.accept(ModBlocks.POLISHED_END_STONE_WALL);
+                        output.accept(Blocks.END_STONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_END_STONE_BRICKS);
+                        output.accept(Blocks.END_STONE_BRICK_STAIRS);
+                        output.accept(Blocks.END_STONE_BRICK_SLAB);
+                        output.accept(Blocks.END_STONE_BRICK_WALL);
+                        output.accept(ModBlocks.CHISELED_END_STONE_BRICKS);
+                        output.accept(ModBlocks.END_STONE_TILES);
+                        output.accept(ModBlocks.CRACKED_END_STONE_TILES);
+                        output.accept(ModBlocks.END_STONE_TILE_STAIRS);
+                        output.accept(ModBlocks.END_STONE_TILE_SLAB);
+                        output.accept(ModBlocks.SMALL_END_STONE_BRICKS);
+                        output.accept(ModBlocks.CRACKED_SMALL_END_STONE_BRICKS);
+                        output.accept(ModBlocks.SMALL_END_STONE_BRICK_STAIRS);
+                        output.accept(ModBlocks.SMALL_END_STONE_BRICK_SLAB);
+                        output.accept(ModBlocks.SMALL_END_STONE_BRICK_WALL);
+
                     }).build());
 
 
