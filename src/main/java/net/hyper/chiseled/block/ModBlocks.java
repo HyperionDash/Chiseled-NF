@@ -6,7 +6,6 @@ import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -420,6 +419,51 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE_BRICKS)));
     public static final DeferredBlock<WallBlock> SMALL_END_STONE_BRICK_WALL = registerBlock("small_end_stone_brick_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.END_STONE_BRICKS)));
+
+    public static final DeferredBlock<StairBlock> NETHERITE_STAIRS = registerBlock("netherite_stairs",
+            () -> new StairBlock(Blocks.NETHERITE_BLOCK.defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.NETHERITE_BLOCK)));
+
+    public static final DeferredBlock<WallBlock> QUARTZ_WALL = registerBlock("quartz_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BLOCK)));
+    public static final DeferredBlock<WallBlock> SMOOTH_QUARTZ_WALL = registerBlock("smooth_quartz_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_QUARTZ)));
+
+    public static final DeferredBlock<StairBlock> QUARTZ_BRICK_STAIRS = registerBlock("quartz_brick_stairs",
+            () -> new StairBlock(Blocks.QUARTZ_BRICKS.defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+    public static final DeferredBlock<SlabBlock> QUARTZ_BRICK_SLAB = registerBlock("quartz_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+    public static final DeferredBlock<WallBlock> QUARTZ_BRICK_WALL = registerBlock("quartz_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+
+    public static final DeferredBlock<Block> QUARTZ_TILES = registerBlock("quartz_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+    public static final DeferredBlock<StairBlock> QUARTZ_TILE_STAIRS = registerBlock("quartz_tile_stairs",
+            () -> new StairBlock(ModBlocks.QUARTZ_TILES.get().defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+    public static final DeferredBlock<SlabBlock> QUARTZ_TILE_SLAB = registerBlock("quartz_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.QUARTZ_BRICKS)));
+
+    public static final DeferredBlock<StairBlock> AMETHYST_STAIRS = registerBlock("amethyst_stairs",
+            () -> new StairBlock(Blocks.AMETHYST_BLOCK.defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<SlabBlock> AMETHYST_SLAB = registerBlock("amethyst_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<WallBlock> AMETHYST_WALL = registerBlock("amethyst_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+    public static final DeferredBlock<Block> AMETHYST_BRICKS = registerBlock("amethyst_bricks",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<StairBlock> AMETHYST_BRICK_STAIRS = registerBlock("amethyst_brick_stairs",
+            () -> new StairBlock(ModBlocks.AMETHYST_BRICKS.get().defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<SlabBlock> AMETHYST_BRICK_SLAB = registerBlock("amethyst_brick_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<WallBlock> AMETHYST_BRICK_WALL = registerBlock("amethyst_brick_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+
+    public static final DeferredBlock<Block> AMETHYST_TILES = registerBlock("amethyst_tiles",
+            () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<StairBlock> AMETHYST_TILE_STAIRS = registerBlock("amethyst_tile_stairs",
+            () -> new StairBlock(ModBlocks.AMETHYST_TILES.get().defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
+    public static final DeferredBlock<SlabBlock> AMETHYST_TILE_SLAB = registerBlock("amethyst_tile_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.AMETHYST_BLOCK)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

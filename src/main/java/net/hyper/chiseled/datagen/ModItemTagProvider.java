@@ -50,7 +50,12 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.asItem())
                 .add(ModBlocks.END_STONE_WALL.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_WALL.asItem())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.asItem());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.asItem())
+                .add(ModBlocks.QUARTZ_WALL.asItem())
+                .add(ModBlocks.SMOOTH_QUARTZ_WALL.asItem())
+                .add(ModBlocks.QUARTZ_BRICK_WALL.asItem())
+                .add(ModBlocks.AMETHYST_WALL.asItem())
+                .add(ModBlocks.AMETHYST_BRICK_WALL.asItem());
 
         tag(ItemTags.STONE_BRICKS)
                 .add(ModBlocks.POLISHED_STONE.asItem())
@@ -102,7 +107,13 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.END_STONE_STAIRS.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_STAIRS.asItem())
                 .add(ModBlocks.END_STONE_TILE_STAIRS.asItem())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.asItem());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.NETHERITE_STAIRS.asItem())
+                .add(ModBlocks.QUARTZ_BRICK_STAIRS.asItem())
+                .add(ModBlocks.QUARTZ_TILE_STAIRS.asItem())
+                .add(ModBlocks.AMETHYST_STAIRS.asItem())
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS.asItem())
+                .add(ModBlocks.AMETHYST_TILE_STAIRS.asItem());
 
         tag(ItemTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.asItem())
@@ -143,6 +154,11 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.END_STONE_SLAB.asItem())
                 .add(ModBlocks.POLISHED_END_STONE_SLAB.asItem())
                 .add(ModBlocks.END_STONE_TILE_SLAB.asItem())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.asItem());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.QUARTZ_BRICK_SLAB.asItem())
+                .add(ModBlocks.QUARTZ_TILE_SLAB.asItem())
+                .add(ModBlocks.AMETHYST_SLAB.asItem())
+                .add(ModBlocks.AMETHYST_BRICK_SLAB.asItem())
+                .add(ModBlocks.AMETHYST_TILE_SLAB.asItem());
     }
 }

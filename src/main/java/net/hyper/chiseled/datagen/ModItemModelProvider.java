@@ -5,6 +5,7 @@ import net.hyper.chiseled.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -36,6 +37,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         wallItem(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL, ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICKS);
         wallItem(ModBlocks.POLISHED_END_STONE_WALL, ModBlocks.POLISHED_END_STONE);
         wallItem(ModBlocks.SMALL_END_STONE_BRICK_WALL, ModBlocks.SMALL_END_STONE_BRICKS);
+        wallItem(ModBlocks.AMETHYST_BRICK_WALL, ModBlocks.AMETHYST_BRICKS);
     }
 
     public void wallItem(DeferredBlock<?> block, DeferredBlock<Block> baseBlock) {

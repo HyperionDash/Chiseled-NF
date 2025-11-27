@@ -305,6 +305,43 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get(), blockTexture(ModBlocks.SMALL_END_STONE_BRICKS.get()), blockTexture(ModBlocks.SMALL_END_STONE_BRICKS.get()));
         blockItem(ModBlocks.SMALL_END_STONE_BRICK_SLAB);
         wallBlock(ModBlocks.SMALL_END_STONE_BRICK_WALL.get(), blockTexture(ModBlocks.SMALL_END_STONE_BRICKS.get()));
+
+        stairsBlock(ModBlocks.NETHERITE_STAIRS.get(), blockTexture(Blocks.NETHERITE_BLOCK));
+        blockItem(ModBlocks.NETHERITE_STAIRS);
+
+        wallBlock(ModBlocks.QUARTZ_WALL.get(), blockTexture(Blocks.QUARTZ_BLOCK));
+        wallBlock(ModBlocks.SMOOTH_QUARTZ_WALL.get(), blockTexture(Blocks.SMOOTH_QUARTZ));
+
+        stairsBlock(ModBlocks.QUARTZ_BRICK_STAIRS.get(), blockTexture(Blocks.QUARTZ_BRICKS));
+        blockItem(ModBlocks.QUARTZ_BRICK_STAIRS);
+        slabBlock(ModBlocks.QUARTZ_BRICK_SLAB.get(), blockTexture(Blocks.QUARTZ_BRICKS), blockTexture(Blocks.QUARTZ_BRICKS));
+        blockItem(ModBlocks.QUARTZ_BRICK_SLAB);
+        wallBlock(ModBlocks.QUARTZ_BRICK_WALL.get(), blockTexture(Blocks.QUARTZ_BRICKS));
+
+        blockWithItem(ModBlocks.QUARTZ_TILES);
+        stairsBlock(ModBlocks.QUARTZ_TILE_STAIRS.get(), blockTexture(ModBlocks.QUARTZ_TILES.get()));
+        blockItem(ModBlocks.QUARTZ_TILE_STAIRS);
+        slabBlock(ModBlocks.QUARTZ_TILE_SLAB.get(), blockTexture(ModBlocks.QUARTZ_TILES.get()), blockTexture(ModBlocks.QUARTZ_TILES.get()));
+        blockItem(ModBlocks.QUARTZ_TILE_SLAB);
+
+        stairsBlock(ModBlocks.AMETHYST_STAIRS.get(), blockTexture(Blocks.AMETHYST_BLOCK));
+        blockItem(ModBlocks.AMETHYST_STAIRS);
+        slabBlock(ModBlocks.AMETHYST_SLAB.get(), blockTexture(Blocks.AMETHYST_BLOCK), blockTexture(Blocks.AMETHYST_BLOCK));
+        blockItem(ModBlocks.AMETHYST_SLAB);
+        wallBlock(ModBlocks.AMETHYST_WALL.get(), blockTexture(Blocks.AMETHYST_BLOCK));
+
+        blockWithItem(ModBlocks.AMETHYST_BRICKS);
+        stairsBlock(ModBlocks.AMETHYST_BRICK_STAIRS.get(), blockTexture(ModBlocks.AMETHYST_BRICKS.get()));
+        blockItem(ModBlocks.AMETHYST_BRICK_STAIRS);
+        slabBlock(ModBlocks.AMETHYST_BRICK_SLAB.get(), blockTexture(ModBlocks.AMETHYST_BRICKS.get()), blockTexture(ModBlocks.AMETHYST_BRICKS.get()));
+        blockItem(ModBlocks.AMETHYST_BRICK_SLAB);
+        wallBlock(ModBlocks.AMETHYST_BRICK_WALL.get(), blockTexture(ModBlocks.AMETHYST_BRICKS.get()));
+
+        blockWithItem(ModBlocks.AMETHYST_TILES);
+        stairsBlock(ModBlocks.AMETHYST_TILE_STAIRS.get(), blockTexture(ModBlocks.AMETHYST_TILES.get()));
+        blockItem(ModBlocks.AMETHYST_TILE_STAIRS);
+        slabBlock(ModBlocks.AMETHYST_TILE_SLAB.get(), blockTexture(ModBlocks.AMETHYST_TILES.get()), blockTexture(ModBlocks.AMETHYST_TILES.get()));
+        blockItem(ModBlocks.AMETHYST_TILE_SLAB);
     }
 
     private void blockWithItem(DeferredBlock<?> deferredBlock) {

@@ -216,5 +216,31 @@
   "block.chiseled.small_end_stone_brick_slab": "Small End stone Brick Slab",
   "block.chiseled.small_end_stone_brick_wall": "Small End stone Brick Wall",
 
+  "block.chiseled.netherite_stairs": "Netherite Stairs",
+
+  "block.chiseled.quartz_wall": "Quartz Wall",
+  "block.chiseled.smooth_quartz_wall": "Smooth Quartz Wall",
+
+  "block.chiseled.quartz_brick_stairs": "Quartz Brick Stairs",
+  "block.chiseled.quartz_brick_slab": "Quartz Brick Slab",
+  "block.chiseled.quartz_brick_wall": "Quartz Brick Wall",
+
+  "block.chiseled.quartz_tiles": "Quartz Tiles",
+  "block.chiseled.quartz_tile_stairs": "Quartz Tile Stairs",
+  "block.chiseled.quartz_tile_slab": "Quartz Tile Slab",
+
+  "block.chiseled.amethyst_stairs": "Amethyst Stairs",
+  "block.chiseled.amethyst_slab": "Amethyst Slab",
+  "block.chiseled.amethyst_wall": "Amethyst Wall",
+
+  "block.chiseled.amethyst_bricks": "Amethyst Bricks",
+  "block.chiseled.amethyst_brick_stairs": "Amethyst Brick Stairs",
+  "block.chiseled.amethyst_brick_slab": "Amethyst Brick Slab",
+  "block.chiseled.amethyst_brick_wall": "Amethyst Brick Wall",
+
+  "block.chiseled.amethyst_tiles": "Amethyst Tiles",
+  "block.chiseled.amethyst_tile_stairs": "Amethyst Tile Stairs",
+  "block.chiseled.amethyst_tile_slab": "Amethyst Tile Slab",
+
   "creativetab.chiseled.chiseled_tab": "Chiseled"
 }

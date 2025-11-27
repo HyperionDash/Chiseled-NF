@@ -224,7 +224,36 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.CRACKED_SMALL_END_STONE_BRICKS.get())
                 .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get())
                 .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get())
+
+                .add(ModBlocks.NETHERITE_STAIRS.get())
+
+                .add(ModBlocks.QUARTZ_WALL.get())
+                .add(ModBlocks.SMOOTH_QUARTZ_WALL.get())
+
+                .add(ModBlocks.QUARTZ_BRICK_STAIRS.get())
+                .add(ModBlocks.QUARTZ_BRICK_SLAB.get())
+                .add(ModBlocks.QUARTZ_BRICK_WALL.get())
+
+                .add(ModBlocks.QUARTZ_TILES.get())
+                .add(ModBlocks.QUARTZ_TILE_STAIRS.get())
+                .add(ModBlocks.QUARTZ_TILE_SLAB.get())
+
+                .add(ModBlocks.AMETHYST_STAIRS.get())
+                .add(ModBlocks.AMETHYST_SLAB.get())
+                .add(ModBlocks.AMETHYST_WALL.get())
+
+                .add(ModBlocks.AMETHYST_BRICKS.get())
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS.get())
+                .add(ModBlocks.AMETHYST_BRICK_SLAB.get())
+                .add(ModBlocks.AMETHYST_BRICK_WALL.get())
+
+                .add(ModBlocks.AMETHYST_TILES.get())
+                .add(ModBlocks.AMETHYST_TILE_STAIRS.get())
+                .add(ModBlocks.AMETHYST_TILE_SLAB.get());
+
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.NETHERITE_STAIRS.get());
 
         tag(BlockTags.WALLS)
                 .add(ModBlocks.STONE_WALL.get())
@@ -255,7 +284,12 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
                 .add(ModBlocks.END_STONE_WALL.get())
                 .add(ModBlocks.POLISHED_END_STONE_WALL.get())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get())
+                .add(ModBlocks.QUARTZ_WALL.get())
+                .add(ModBlocks.SMOOTH_QUARTZ_WALL.get())
+                .add(ModBlocks.QUARTZ_BRICK_WALL.get())
+                .add(ModBlocks.AMETHYST_WALL.get())
+                .add(ModBlocks.AMETHYST_BRICK_WALL.get());
 
         tag(BlockTags.STAIRS)
                 .add(ModBlocks.POLISHED_STONE_STAIRS.get())
@@ -295,7 +329,13 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.END_STONE_STAIRS.get())
                 .add(ModBlocks.POLISHED_END_STONE_STAIRS.get())
                 .add(ModBlocks.END_STONE_TILE_STAIRS.get())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get())
+                .add(ModBlocks.NETHERITE_STAIRS.get())
+                .add(ModBlocks.QUARTZ_BRICK_STAIRS.get())
+                .add(ModBlocks.QUARTZ_TILE_STAIRS.get())
+                .add(ModBlocks.AMETHYST_STAIRS.get())
+                .add(ModBlocks.AMETHYST_BRICK_STAIRS.get())
+                .add(ModBlocks.AMETHYST_TILE_STAIRS.get());
 
         tag(BlockTags.SLABS)
                 .add(ModBlocks.POLISHED_STONE_SLAB.get())
@@ -336,6 +376,11 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.END_STONE_SLAB.get())
                 .add(ModBlocks.POLISHED_END_STONE_SLAB.get())
                 .add(ModBlocks.END_STONE_TILE_SLAB.get())
-                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get());
+                .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get())
+                .add(ModBlocks.QUARTZ_BRICK_SLAB.get())
+                .add(ModBlocks.QUARTZ_TILE_SLAB.get())
+                .add(ModBlocks.AMETHYST_SLAB.get())
+                .add(ModBlocks.AMETHYST_BRICK_SLAB.get())
+                .add(ModBlocks.AMETHYST_TILE_SLAB.get());
     }
 }

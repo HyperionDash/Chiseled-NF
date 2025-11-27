@@ -323,6 +323,36 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SMALL_END_STONE_BRICK_SLAB);
                         output.accept(ModBlocks.SMALL_END_STONE_BRICK_WALL);
 
+                        output.accept(Blocks.QUARTZ_BLOCK);
+                        output.accept(Blocks.QUARTZ_STAIRS);
+                        output.accept(Blocks.QUARTZ_SLAB);
+                        output.accept(ModBlocks.QUARTZ_WALL);
+                        output.accept(Blocks.CHISELED_QUARTZ_BLOCK);
+                        output.accept(Blocks.SMOOTH_QUARTZ);
+                        output.accept(Blocks.SMOOTH_QUARTZ_STAIRS);
+                        output.accept(Blocks.SMOOTH_QUARTZ_SLAB);
+                        output.accept(ModBlocks.SMOOTH_QUARTZ_WALL);
+                        output.accept(Blocks.QUARTZ_BRICKS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
+                        output.accept(ModBlocks.QUARTZ_BRICK_WALL);
+                        output.accept(Blocks.QUARTZ_PILLAR);
+                        output.accept(ModBlocks.QUARTZ_TILES);
+                        output.accept(ModBlocks.QUARTZ_TILE_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_TILE_SLAB);
+
+                        output.accept(Blocks.AMETHYST_BLOCK);
+                        output.accept(Blocks.BUDDING_AMETHYST);
+                        output.accept(ModBlocks.AMETHYST_STAIRS);
+                        output.accept(ModBlocks.AMETHYST_SLAB);
+                        output.accept(ModBlocks.AMETHYST_WALL);
+                        output.accept(ModBlocks.AMETHYST_BRICKS);
+                        output.accept(ModBlocks.AMETHYST_BRICK_STAIRS);
+                        output.accept(ModBlocks.AMETHYST_BRICK_SLAB);
+                        output.accept(ModBlocks.AMETHYST_BRICK_WALL);
+                        output.accept(ModBlocks.AMETHYST_TILES);
+                        output.accept(ModBlocks.AMETHYST_TILE_STAIRS);
+                        output.accept(ModBlocks.AMETHYST_TILE_SLAB);
                     }).build());
 
 

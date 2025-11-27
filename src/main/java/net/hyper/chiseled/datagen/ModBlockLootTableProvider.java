@@ -270,6 +270,37 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.NETHERITE_STAIRS.get());
+
+        dropSelf(ModBlocks.QUARTZ_WALL.get());
+        dropSelf(ModBlocks.SMOOTH_QUARTZ_WALL.get());
+
+        dropSelf(ModBlocks.QUARTZ_BRICK_STAIRS.get());
+        add(ModBlocks.QUARTZ_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.QUARTZ_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.QUARTZ_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.QUARTZ_TILES.get());
+        dropSelf(ModBlocks.QUARTZ_TILE_STAIRS.get());
+        add(ModBlocks.QUARTZ_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.QUARTZ_TILE_SLAB.get()));
+
+        dropSelf(ModBlocks.AMETHYST_STAIRS.get());
+        add(ModBlocks.AMETHYST_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.AMETHYST_SLAB.get()));
+        dropSelf(ModBlocks.AMETHYST_WALL.get());
+
+        dropSelf(ModBlocks.AMETHYST_BRICKS.get());
+        dropSelf(ModBlocks.AMETHYST_BRICK_STAIRS.get());
+        add(ModBlocks.AMETHYST_BRICK_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.AMETHYST_BRICK_SLAB.get()));
+        dropSelf(ModBlocks.AMETHYST_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.AMETHYST_TILES.get());
+        dropSelf(ModBlocks.AMETHYST_TILE_STAIRS.get());
+        add(ModBlocks.AMETHYST_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.AMETHYST_TILE_SLAB.get()));
     }
 
     @Override
