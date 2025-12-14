@@ -4,6 +4,7 @@ import net.hyper.chiseled.Chiseled;
 import net.hyper.chiseled.block.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.IronBarsBlock;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.client.model.generators.ModelFile;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
@@ -518,6 +519,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         slabBlock(ModBlocks.PINK_CONCRETE_SLAB.get(), blockTexture(Blocks.PINK_CONCRETE), blockTexture(Blocks.PINK_CONCRETE));
         blockItem(ModBlocks.PINK_CONCRETE_SLAB);
         wallBlock(ModBlocks.PINK_CONCRETE_WALL.get(), blockTexture(Blocks.PINK_CONCRETE));
+
+        paneBlockWithRenderType(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get(), modLoc("block/framed_green_stained_glass"), modLoc("block/framed_glass_top"), "translucent");
 
         stairsBlock(ModBlocks.CALCITE_STAIRS.get(), blockTexture(Blocks.CALCITE));
         blockItem(ModBlocks.CALCITE_STAIRS);
