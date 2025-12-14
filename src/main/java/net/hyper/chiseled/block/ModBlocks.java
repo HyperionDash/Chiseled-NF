@@ -690,10 +690,74 @@ public class ModBlocks {
     public static final DeferredBlock<WallBlock> PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE)));
 
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_GLASS = registerBlock("framed_glass",
+            () -> new StainedGlassBlock(DyeColor.WHITE, BlockBehaviour.Properties.ofFullCopy(Blocks.GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_GLASS_PANE = registerBlock("framed_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.WHITE, BlockBehaviour.Properties.ofFullCopy(Blocks.GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_WHITE_STAINED_GLASS = registerBlock("framed_white_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.WHITE, BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_WHITE_STAINED_GLASS_PANE = registerBlock("framed_white_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.WHITE, BlockBehaviour.Properties.ofFullCopy(Blocks.WHITE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_LIGHT_GRAY_STAINED_GLASS = registerBlock("framed_light_gray_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.LIGHT_GRAY, BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_LIGHT_GRAY_STAINED_GLASS_PANE = registerBlock("framed_light_gray_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.LIGHT_GRAY, BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_GRAY_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_GRAY_STAINED_GLASS = registerBlock("framed_gray_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.GRAY, BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_GRAY_STAINED_GLASS_PANE = registerBlock("framed_gray_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.GRAY, BlockBehaviour.Properties.ofFullCopy(Blocks.GRAY_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_BLACK_STAINED_GLASS = registerBlock("framed_black_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.BLACK, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_BLACK_STAINED_GLASS_PANE = registerBlock("framed_black_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.BLACK, BlockBehaviour.Properties.ofFullCopy(Blocks.BLACK_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_BROWN_STAINED_GLASS = registerBlock("framed_brown_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.BROWN, BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_BROWN_STAINED_GLASS_PANE = registerBlock("framed_brown_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.BROWN, BlockBehaviour.Properties.ofFullCopy(Blocks.BROWN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_RED_STAINED_GLASS = registerBlock("framed_red_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.RED, BlockBehaviour.Properties.ofFullCopy(Blocks.RED_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_RED_STAINED_GLASS_PANE = registerBlock("framed_red_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.RED, BlockBehaviour.Properties.ofFullCopy(Blocks.RED_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_ORANGE_STAINED_GLASS = registerBlock("framed_orange_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.ORANGE, BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_ORANGE_STAINED_GLASS_PANE = registerBlock("framed_orange_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.ORANGE, BlockBehaviour.Properties.ofFullCopy(Blocks.ORANGE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_YELLOW_STAINED_GLASS = registerBlock("framed_yellow_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.YELLOW, BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_YELLOW_STAINED_GLASS_PANE = registerBlock("framed_yellow_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.YELLOW, BlockBehaviour.Properties.ofFullCopy(Blocks.YELLOW_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_LIME_STAINED_GLASS = registerBlock("framed_lime_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.LIME, BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_LIME_STAINED_GLASS_PANE = registerBlock("framed_lime_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.LIME, BlockBehaviour.Properties.ofFullCopy(Blocks.LIME_STAINED_GLASS)));
     public static final DeferredBlock<StainedGlassBlock> FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
             () -> new StainedGlassBlock(DyeColor.GREEN, BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_STAINED_GLASS)));
     public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_GREEN_STAINED_GLASS_PANE = registerBlock("framed_green_stained_glass_pane",
             () -> new StainedGlassPaneBlock(DyeColor.GREEN, BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_CYAN_STAINED_GLASS = registerBlock("framed_cyan_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.CYAN, BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_CYAN_STAINED_GLASS_PANE = registerBlock("framed_cyan_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.CYAN, BlockBehaviour.Properties.ofFullCopy(Blocks.CYAN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_LIGHT_BLUE_STAINED_GLASS = registerBlock("framed_light_blue_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.LIGHT_BLUE, BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_LIGHT_BLUE_STAINED_GLASS_PANE = registerBlock("framed_light_blue_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.LIGHT_BLUE, BlockBehaviour.Properties.ofFullCopy(Blocks.LIGHT_BLUE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_BLUE_STAINED_GLASS = registerBlock("framed_blue_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.BLUE, BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_BLUE_STAINED_GLASS_PANE = registerBlock("framed_blue_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.BLUE, BlockBehaviour.Properties.ofFullCopy(Blocks.BLUE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_PURPLE_STAINED_GLASS = registerBlock("framed_purple_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.PURPLE, BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_PURPLE_STAINED_GLASS_PANE = registerBlock("framed_purple_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.PURPLE, BlockBehaviour.Properties.ofFullCopy(Blocks.PURPLE_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_MAGENTA_STAINED_GLASS = registerBlock("framed_magenta_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.MAGENTA, BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_MAGENTA_STAINED_GLASS_PANE = registerBlock("framed_magenta_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.MAGENTA, BlockBehaviour.Properties.ofFullCopy(Blocks.MAGENTA_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_PINK_STAINED_GLASS = registerBlock("framed_pink_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.PINK, BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_PINK_STAINED_GLASS_PANE = registerBlock("framed_pink_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.PINK, BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_STAINED_GLASS)));
 
     public static final DeferredBlock<StairBlock> CALCITE_STAIRS = registerBlock("calcite_stairs",
             () -> new StairBlock(Blocks.CALCITE.defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE)));

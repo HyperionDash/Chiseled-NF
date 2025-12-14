@@ -453,8 +453,41 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.PINK_CONCRETE_SLAB.get()));
         dropSelf(ModBlocks.PINK_CONCRETE_WALL.get());
 
+        dropSelf(ModBlocks.FRAMED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_WHITE_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_LIGHT_GRAY_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_GRAY_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_BLACK_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_BROWN_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_RED_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_ORANGE_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_YELLOW_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_LIME_STAINED_GLASS.get());
         dropSelf(ModBlocks.FRAMED_GREEN_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_CYAN_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_LIGHT_BLUE_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_BLUE_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_PURPLE_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_MAGENTA_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_PINK_STAINED_GLASS.get());
+
+        dropSelf(ModBlocks.FRAMED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_WHITE_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_LIGHT_GRAY_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_GRAY_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_BLACK_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_BROWN_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_RED_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_ORANGE_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_YELLOW_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_LIME_STAINED_GLASS_PANE.get());
         dropSelf(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_CYAN_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_LIGHT_BLUE_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_BLUE_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_PURPLE_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_MAGENTA_STAINED_GLASS_PANE.get());
+        dropSelf(ModBlocks.FRAMED_PINK_STAINED_GLASS_PANE.get());
 
         dropSelf(ModBlocks.CALCITE_STAIRS.get());
         add(ModBlocks.CALCITE_SLAB.get(),

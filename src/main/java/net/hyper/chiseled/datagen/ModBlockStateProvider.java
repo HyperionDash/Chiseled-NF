@@ -520,7 +520,43 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockItem(ModBlocks.PINK_CONCRETE_SLAB);
         wallBlock(ModBlocks.PINK_CONCRETE_WALL.get(), blockTexture(Blocks.PINK_CONCRETE));
 
-        paneBlockWithRenderType(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get(), modLoc("block/framed_green_stained_glass"), modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_GLASS_PANE.get(), modLoc("block/framed_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_WHITE_STAINED_GLASS_PANE.get(), modLoc("block/framed_white_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_LIGHT_GRAY_STAINED_GLASS_PANE.get(), modLoc("block/framed_light_gray_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_GRAY_STAINED_GLASS_PANE.get(), modLoc("block/framed_gray_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_BLACK_STAINED_GLASS_PANE.get(), modLoc("block/framed_black_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_BROWN_STAINED_GLASS_PANE.get(), modLoc("block/framed_brown_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_RED_STAINED_GLASS_PANE.get(), modLoc("block/framed_red_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_ORANGE_STAINED_GLASS_PANE.get(), modLoc("block/framed_orange_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_YELLOW_STAINED_GLASS_PANE.get(), modLoc("block/framed_yellow_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_LIME_STAINED_GLASS_PANE.get(), modLoc("block/framed_lime_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get(), modLoc("block/framed_green_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_CYAN_STAINED_GLASS_PANE.get(), modLoc("block/framed_cyan_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_LIGHT_BLUE_STAINED_GLASS_PANE.get(), modLoc("block/framed_light_blue_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_BLUE_STAINED_GLASS_PANE.get(), modLoc("block/framed_blue_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_PURPLE_STAINED_GLASS_PANE.get(), modLoc("block/framed_purple_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_MAGENTA_STAINED_GLASS_PANE.get(), modLoc("block/framed_magenta_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+        paneBlockWithRenderType(ModBlocks.FRAMED_PINK_STAINED_GLASS_PANE.get(), modLoc("block/framed_pink_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
+
+        paneBlockWithRenderType(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get(), modLoc("block/framed_green_stained_glass"),
+                modLoc("block/framed_glass_top"), "translucent");
 
         stairsBlock(ModBlocks.CALCITE_STAIRS.get(), blockTexture(Blocks.CALCITE));
         blockItem(ModBlocks.CALCITE_STAIRS);
