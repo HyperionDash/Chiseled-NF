@@ -452,7 +452,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.PINK_CONCRETE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.PINK_CONCRETE_SLAB.get()));
         dropSelf(ModBlocks.PINK_CONCRETE_WALL.get());
-        
+
+        dropSelf(ModBlocks.FRAMED_GREEN_STAINED_GLASS.get());
+        dropSelf(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE.get());
+
         dropSelf(ModBlocks.CALCITE_STAIRS.get());
         add(ModBlocks.CALCITE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.CALCITE_SLAB.get()));

@@ -3,6 +3,7 @@ package net.hyper.chiseled.block;
 import net.hyper.chiseled.Chiseled;
 import net.hyper.chiseled.item.ModItems;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -688,6 +689,11 @@ public class ModBlocks {
             () -> new SlabBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE)));
     public static final DeferredBlock<WallBlock> PINK_CONCRETE_WALL = registerBlock("pink_concrete_wall",
             () -> new WallBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.PINK_CONCRETE)));
+
+    public static final DeferredBlock<StainedGlassBlock> FRAMED_GREEN_STAINED_GLASS = registerBlock("framed_green_stained_glass",
+            () -> new StainedGlassBlock(DyeColor.GREEN, BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_STAINED_GLASS)));
+    public static final DeferredBlock<StainedGlassPaneBlock> FRAMED_GREEN_STAINED_GLASS_PANE = registerBlock("framed_green_stained_glass_pane",
+            () -> new StainedGlassPaneBlock(DyeColor.GREEN, BlockBehaviour.Properties.ofFullCopy(Blocks.GREEN_STAINED_GLASS)));
 
     public static final DeferredBlock<StairBlock> CALCITE_STAIRS = registerBlock("calcite_stairs",
             () -> new StairBlock(Blocks.CALCITE.defaultBlockState(),BlockBehaviour.Properties.ofFullCopy(Blocks.CALCITE)));

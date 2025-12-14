@@ -499,6 +499,9 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.PINK_CONCRETE_STAIRS);
                         output.accept(ModBlocks.PINK_CONCRETE_SLAB);
                         output.accept(ModBlocks.PINK_CONCRETE_WALL);
+
+                        output.accept(ModBlocks.FRAMED_GREEN_STAINED_GLASS);
+                        output.accept(ModBlocks.FRAMED_GREEN_STAINED_GLASS_PANE);
                         
                         output.accept(Blocks.CALCITE);
                         output.accept(ModBlocks.CALCITE_STAIRS);
