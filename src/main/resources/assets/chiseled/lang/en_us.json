@@ -212,6 +212,9 @@
   "block.chiseled.gilded_small_polished_blackstone_brick_slab": "Gilded Small Polished Blackstone Brick Slab",
   "block.chiseled.gilded_small_polished_blackstone_brick_wall": "Gilded Small Polished Blackstone Brick Wall",
 
+  "block.chiseled.mixed_polished_blackstone_tiles": "Mixed Polished Blackstone Tiles",
+  "block.chiseled.mixed_polished_blackstone_tile_slab": "Mixed Polished Blackstone Tile Slab",
+
   "block.chiseled.end_stone_stairs": "End Stone Stairs",
   "block.chiseled.end_stone_slab": "End Stone Slab",
   "block.chiseled.end_stone_wall": "End Stone Wall",
@@ -234,6 +237,13 @@
   "block.chiseled.small_end_stone_brick_stairs": "Small End stone Brick Stairs",
   "block.chiseled.small_end_stone_brick_slab": "Small End stone Brick Slab",
   "block.chiseled.small_end_stone_brick_wall": "Small End stone Brick Wall",
+
+  "block.chiseled.mixed_purpur_tiles": "Mixed Purpur Tiles",
+  "block.chiseled.mixed_purpur_tile_slab": "Mixed Purpur Tile Slab",
+
+  "block.minecraft.purpur_block": "Purpur Tiles",
+  "block.minecraft.purpur_stairs": "Purpur Tile Stairs",
+  "block.minecraft.purpur_slab": "Purpur Tile Slab",
 
   "block.chiseled.netherite_stairs": "Netherite Stairs",
 

@@ -213,6 +213,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get())
                 .add(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get())
 
+                .add(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILES.get())
+                .add(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB.get())
+
                 .add(ModBlocks.END_STONE_STAIRS.get())
                 .add(ModBlocks.END_STONE_SLAB.get())
                 .add(ModBlocks.END_STONE_WALL.get())
@@ -235,6 +238,9 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.SMALL_END_STONE_BRICK_STAIRS.get())
                 .add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get())
                 .add(ModBlocks.SMALL_END_STONE_BRICK_WALL.get())
+
+                .add(ModBlocks.MIXED_PURPUR_TILES.get())
+                .add(ModBlocks.MIXED_PURPUR_TILE_SLAB.get())
 
                 .add(ModBlocks.NETHERITE_STAIRS.get())
 
@@ -609,6 +615,8 @@ public class ModBlockTagProvider extends BlockTagsProvider {
                 .add(ModBlocks.MAGENTA_CONCRETE_SLAB.get())
                 .add(ModBlocks.PINK_CONCRETE_SLAB.get())
                 .add(ModBlocks.CALCITE_SLAB.get())
-                .add(ModBlocks.SMOOTH_BASALT_SLAB.get());
+                .add(ModBlocks.SMOOTH_BASALT_SLAB.get())
+                .add(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB.get())
+                .add(ModBlocks.MIXED_PURPUR_TILE_SLAB.get());
     }
 }

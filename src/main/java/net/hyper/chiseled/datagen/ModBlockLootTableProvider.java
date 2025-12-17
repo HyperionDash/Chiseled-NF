@@ -261,6 +261,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
                 block -> createSlabItemTable(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL.get());
 
+        dropSelf(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILES.get());
+        add(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB.get()));
+
         dropSelf(ModBlocks.END_STONE_STAIRS.get());
         add(ModBlocks.END_STONE_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.END_STONE_SLAB.get()));
@@ -287,6 +291,10 @@ public class ModBlockLootTableProvider extends BlockLootSubProvider {
         add(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get(),
                 block -> createSlabItemTable(ModBlocks.SMALL_END_STONE_BRICK_SLAB.get()));
         dropSelf(ModBlocks.SMALL_END_STONE_BRICK_WALL.get());
+
+        dropSelf(ModBlocks.MIXED_PURPUR_TILES.get());
+        add(ModBlocks.MIXED_PURPUR_TILE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.MIXED_PURPUR_TILE_SLAB.get()));
 
         dropSelf(ModBlocks.NETHERITE_STAIRS.get());
 

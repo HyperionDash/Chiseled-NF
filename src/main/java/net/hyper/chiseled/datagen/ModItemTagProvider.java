@@ -6,7 +6,6 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import org.jetbrains.annotations.Nullable;
@@ -269,6 +268,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
                 .add(ModBlocks.MAGENTA_CONCRETE_SLAB.asItem())
                 .add(ModBlocks.PINK_CONCRETE_SLAB.asItem())
                 .add(ModBlocks.CALCITE_SLAB.asItem())
-                .add(ModBlocks.SMOOTH_BASALT_SLAB.asItem());
+                .add(ModBlocks.SMOOTH_BASALT_SLAB.asItem())
+                .add(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB.asItem())
+                .add(ModBlocks.MIXED_PURPUR_TILE_SLAB.asItem());
     }
 }

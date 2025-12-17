@@ -74,6 +74,31 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MIXED_STONE_TILES);
                         output.accept(ModBlocks.MIXED_STONE_TILE_SLAB);
 
+                        output.accept(Blocks.DEEPSLATE);
+                        output.accept(Blocks.COBBLED_DEEPSLATE);
+                        output.accept(Blocks.COBBLED_DEEPSLATE_STAIRS);
+                        output.accept(Blocks.COBBLED_DEEPSLATE_SLAB);
+                        output.accept(Blocks.COBBLED_DEEPSLATE_WALL);
+                        output.accept(Blocks.CHISELED_DEEPSLATE);
+                        output.accept(Blocks.POLISHED_DEEPSLATE);
+                        output.accept(Blocks.POLISHED_DEEPSLATE_STAIRS);
+                        output.accept(Blocks.POLISHED_DEEPSLATE_SLAB);
+                        output.accept(Blocks.POLISHED_DEEPSLATE_WALL);
+                        output.accept(Blocks.DEEPSLATE_BRICKS);
+                        output.accept(Blocks.CRACKED_DEEPSLATE_BRICKS);
+                        output.accept(Blocks.DEEPSLATE_BRICK_STAIRS);
+                        output.accept(Blocks.DEEPSLATE_BRICK_SLAB);
+                        output.accept(Blocks.DEEPSLATE_BRICK_WALL);
+                        output.accept(ModBlocks.DEEPSLATE_TILES);
+                        output.accept(ModBlocks.CRACKED_DEEPSLATE_TILES);
+                        output.accept(ModBlocks.DEEPSLATE_TILE_STAIRS);
+                        output.accept(ModBlocks.DEEPSLATE_TILE_SLAB);
+                        output.accept(Blocks.DEEPSLATE_TILES);
+                        output.accept(Blocks.CRACKED_DEEPSLATE_TILES);
+                        output.accept(Blocks.DEEPSLATE_TILE_STAIRS);
+                        output.accept(Blocks.DEEPSLATE_TILE_SLAB);
+                        output.accept(Blocks.DEEPSLATE_TILE_WALL);
+
                         output.accept(Blocks.GRANITE);
                         output.accept(Blocks.GRANITE_STAIRS);
                         output.accept(Blocks.GRANITE_SLAB);
@@ -131,30 +156,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.POLISHED_ANDESITE_TILE_STAIRS);
                         output.accept(ModBlocks.POLISHED_ANDESITE_TILE_SLAB);
 
-                        output.accept(Blocks.DEEPSLATE);
-                        output.accept(Blocks.COBBLED_DEEPSLATE);
-                        output.accept(Blocks.COBBLED_DEEPSLATE_STAIRS);
-                        output.accept(Blocks.COBBLED_DEEPSLATE_SLAB);
-                        output.accept(Blocks.COBBLED_DEEPSLATE_WALL);
-                        output.accept(Blocks.CHISELED_DEEPSLATE);
-                        output.accept(Blocks.POLISHED_DEEPSLATE);
-                        output.accept(Blocks.POLISHED_DEEPSLATE_STAIRS);
-                        output.accept(Blocks.POLISHED_DEEPSLATE_SLAB);
-                        output.accept(Blocks.POLISHED_DEEPSLATE_WALL);
-                        output.accept(Blocks.DEEPSLATE_BRICKS);
-                        output.accept(Blocks.CRACKED_DEEPSLATE_BRICKS);
-                        output.accept(Blocks.DEEPSLATE_BRICK_STAIRS);
-                        output.accept(Blocks.DEEPSLATE_BRICK_SLAB);
-                        output.accept(Blocks.DEEPSLATE_BRICK_WALL);
-                        output.accept(ModBlocks.DEEPSLATE_TILES);
-                        output.accept(ModBlocks.CRACKED_DEEPSLATE_TILES);
-                        output.accept(ModBlocks.DEEPSLATE_TILE_STAIRS);
-                        output.accept(ModBlocks.DEEPSLATE_TILE_SLAB);
-                        output.accept(Blocks.DEEPSLATE_TILES);
-                        output.accept(Blocks.CRACKED_DEEPSLATE_TILES);
-                        output.accept(Blocks.DEEPSLATE_TILE_STAIRS);
-                        output.accept(Blocks.DEEPSLATE_TILE_SLAB);
-                        output.accept(Blocks.DEEPSLATE_TILE_WALL);
                         output.accept(Blocks.BRICKS);
                         output.accept(Blocks.BRICK_STAIRS);
                         output.accept(Blocks.BRICK_SLAB);
@@ -310,6 +311,26 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_STAIRS);
                         output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_SLAB);
                         output.accept(ModBlocks.GILDED_SMALL_POLISHED_BLACKSTONE_BRICK_WALL);
+                        output.accept(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILES);
+                        output.accept(ModBlocks.MIXED_POLISHED_BLACKSTONE_TILE_SLAB);
+
+                        output.accept(Blocks.QUARTZ_BLOCK);
+                        output.accept(Blocks.QUARTZ_STAIRS);
+                        output.accept(Blocks.QUARTZ_SLAB);
+                        output.accept(ModBlocks.QUARTZ_WALL);
+                        output.accept(Blocks.CHISELED_QUARTZ_BLOCK);
+                        output.accept(Blocks.SMOOTH_QUARTZ);
+                        output.accept(Blocks.SMOOTH_QUARTZ_STAIRS);
+                        output.accept(Blocks.SMOOTH_QUARTZ_SLAB);
+                        output.accept(ModBlocks.SMOOTH_QUARTZ_WALL);
+                        output.accept(Blocks.QUARTZ_BRICKS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
+                        output.accept(ModBlocks.QUARTZ_BRICK_WALL);
+                        output.accept(Blocks.QUARTZ_PILLAR);
+                        output.accept(ModBlocks.QUARTZ_TILES);
+                        output.accept(ModBlocks.QUARTZ_TILE_STAIRS);
+                        output.accept(ModBlocks.QUARTZ_TILE_SLAB);
 
                         output.accept(Blocks.END_STONE);
                         output.accept(ModBlocks.END_STONE_STAIRS);
@@ -335,23 +356,12 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.SMALL_END_STONE_BRICK_SLAB);
                         output.accept(ModBlocks.SMALL_END_STONE_BRICK_WALL);
 
-                        output.accept(Blocks.QUARTZ_BLOCK);
-                        output.accept(Blocks.QUARTZ_STAIRS);
-                        output.accept(Blocks.QUARTZ_SLAB);
-                        output.accept(ModBlocks.QUARTZ_WALL);
-                        output.accept(Blocks.CHISELED_QUARTZ_BLOCK);
-                        output.accept(Blocks.SMOOTH_QUARTZ);
-                        output.accept(Blocks.SMOOTH_QUARTZ_STAIRS);
-                        output.accept(Blocks.SMOOTH_QUARTZ_SLAB);
-                        output.accept(ModBlocks.SMOOTH_QUARTZ_WALL);
-                        output.accept(Blocks.QUARTZ_BRICKS);
-                        output.accept(ModBlocks.QUARTZ_BRICK_STAIRS);
-                        output.accept(ModBlocks.QUARTZ_BRICK_SLAB);
-                        output.accept(ModBlocks.QUARTZ_BRICK_WALL);
-                        output.accept(Blocks.QUARTZ_PILLAR);
-                        output.accept(ModBlocks.QUARTZ_TILES);
-                        output.accept(ModBlocks.QUARTZ_TILE_STAIRS);
-                        output.accept(ModBlocks.QUARTZ_TILE_SLAB);
+                        output.accept(ModBlocks.MIXED_PURPUR_TILES);
+                        output.accept(ModBlocks.MIXED_PURPUR_TILE_SLAB);
+
+                        output.accept(Blocks.PURPUR_BLOCK);
+                        output.accept(Blocks.PURPUR_STAIRS);
+                        output.accept(Blocks.PURPUR_SLAB);
 
                         output.accept(Blocks.AMETHYST_BLOCK);
                         output.accept(Blocks.BUDDING_AMETHYST);
@@ -365,6 +375,11 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.AMETHYST_TILES);
                         output.accept(ModBlocks.AMETHYST_TILE_STAIRS);
                         output.accept(ModBlocks.AMETHYST_TILE_SLAB);
+
+                        output.accept(Blocks.CALCITE);
+                        output.accept(ModBlocks.CALCITE_STAIRS);
+                        output.accept(ModBlocks.CALCITE_SLAB);
+                        output.accept(ModBlocks.CALCITE_WALL);
 
                         output.accept(Blocks.TERRACOTTA);
                         output.accept(ModBlocks.TERRACOTTA_STAIRS);
@@ -571,11 +586,6 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.FRAMED_PURPLE_STAINED_GLASS_PANE);
                         output.accept(ModBlocks.FRAMED_MAGENTA_STAINED_GLASS_PANE);
                         output.accept(ModBlocks.FRAMED_PINK_STAINED_GLASS_PANE);
-                        
-                        output.accept(Blocks.CALCITE);
-                        output.accept(ModBlocks.CALCITE_STAIRS);
-                        output.accept(ModBlocks.CALCITE_SLAB);
-                        output.accept(ModBlocks.CALCITE_WALL);
                     }).build());
 
 
