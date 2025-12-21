@@ -359,6 +359,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.MIXED_PURPUR_TILES);
                         output.accept(ModBlocks.MIXED_PURPUR_TILE_SLAB);
 
+                        output.accept(Blocks.PURPUR_PILLAR);
                         output.accept(Blocks.PURPUR_BLOCK);
                         output.accept(Blocks.PURPUR_STAIRS);
                         output.accept(Blocks.PURPUR_SLAB);
